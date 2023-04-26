@@ -7,7 +7,7 @@ module.exports = {
     siteUrl: `https://dev.akmalov.com`,
     description: 'The personal blog Artur Akmalov',
     image: './images/icon.png',
-    keywords: ['React', 'React Native', 'Node'],
+    keywords: ['Blog', 'DevOps', 'Python', 'Linux', 'Network', 'Homelab'],
     githubUrl: 'https://github.com/akmalovaa',
     linkedInUrl: 'https://linkedin.com/in/akmalovaa',
   },

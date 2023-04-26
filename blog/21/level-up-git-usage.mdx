@@ -1,0 +1,34 @@
+---
+title: How I Leveled Up My Git Skills
+type: post
+date: 2023-01-21
+dateModified:
+tags: [git, cli, terminal]
+featuredImage:
+  path: feature.jpg
+---
+
+When I first started programming in git I didn't use the terminal. I had never learned how to. I had no clue where to begin, so I didn't. I searched for a gui git client and grabbed one that looked good. I also relied on source control features built into my ide. Years later that I realized how learning the cli for git how much it would improve my speed and efficiency. So here's my journey from relying on the gui to becoming comfortable in the terminal.
+
+## Change Causes Evolution
+
+When I first started out I wouldn't have changed my process. Until I got a new computer. Either because of old hardware or a new job. The new computer would not be set up like the old one. And thus started a long journey of remembering which apps I had installed and what settings I had for them. This was a huge pain. Which led me to stop doing it. After a few of these new set ups I stopped carrying over every app I had ever used. My git gui was one of those that didn't make. Which meant I needed a new way of running git commands.
+
+## Learning as Needed
+
+I started by reading the docs for git and looking up git cheat sheets. I found out that there was a lot of info out there. Too much in fact. For me, memorizing every git command wasn't going to work. Instead, I would search the internet for git commands that I needed when I ran into a need for them. It's still the way I learn how to git. I prefer it because I don't learn things that I won't need. And I learned how to git using the cli.
+
+## Sanic Speed
+
+The next big improvement I made was to pay attention to the aliasing the git cli brought with it. I set up my terminal so that it recognizes commands as I type them. One day I noticed that `g` was a valid command. So I ran it. Turns out `g` is an alias for `git`. So now all my `git` commands became `g` commands. And I thought this was amazing. But it gets even better! Now whenever I needed to run a git command I tried to find aliases for it. Through trial and error I figured out even the subcommands have aliases. So `git add` is the same as `ga`. But it still gets better! Turns out there are also aliases for subcommands and their flags! A common command I run is `git commit --all --message "commit message"`. And through my journey I have found these shortcuts for this same exact command:
+
+- `g commit --all --message "commit message"`
+- `g commit -a -m "commit message"`
+- `gc -am "commit message"`
+- `gcam "commit message"`
+
+These aliases exist for all of the subcommands I use on a daily basis: add, checkout, branch, remote, clone, push, pull, merge, status... I'm sure there are even more. I recommend using the `-h` flag on any command you use.
+
+## Try It!
+
+Finding these aliases has increased my speed and efficiency while programming with git. I was using the gui as a crutch to avoid the terminal and cli. I hope these aliases can help you out too.
