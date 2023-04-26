@@ -1,2 +1,2 @@
 # akmalov.com
-My personal blog used Grav
+My personal blog used Gatsby
