@@ -1,0 +1,49 @@
+---
+title: React Native Environment Setup
+type: post
+date: 2023-04-24
+dateModified:
+tags: [react native, setup, env, config]
+featuredImage:
+  path: feature.jpg
+  creator:
+    name: Matthew Smith
+    url: https://unsplash.com/@whale
+---
+
+I enjoy building apps in react native. Yet, configuring my system to run them is a pain. In this article I'll outline how I've tried to make it less painful.
+
+## Node
+
+React native uses node to interface with the native JS runtime on Android and iOS. The runtime allows for hooks into native code which is how we can build high performing native apps.
+I use NVM to manage my node installs. It lets me manage many versions for various projects.
+
+## Watchman
+
+React native uses watchman to watch changes, compile, and refresh the app on your device. I install this from brew; no management required.
+
+## Ruby
+
+React native needs ruby to use CocoaPods (a ruby gem) for handling iOS dependencies. I started out using rvm but have since switched to rbenv. Both libraries allow managing ruby version. I found rbenv much easier to set up than rvm.
+
+## Xcode
+
+React native needs Xcode for iOS development tooling including the iOS simulator. For a while I installed this via the Mac App Store but downloads took forever and sometimes got stuck. I have switched to using Xcodes to manage having many versions of Xcode installed. Downloads don’t take as long and have not gotten stuck thus far.
+
+## JDK
+
+React native needs a JDK for Android development. I use jenv to manage jdk versions and prefer openJDKs. I grab openJDKs from brew and add them into jenv.
+
+## Android Studio
+
+React native needs Android Studio for Android development tooling. During install include Android SDK, Android SDK Platform, and Android Virtual Device. The latest Android SDK installs by default. Check that it's compatible with the version of react native you’re using. You can use the SDK Manager within Android Studio to install the correct version. In order for react native to build apps with native code some environment variables need set up.
+
+```
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
+
+## Create An App
+
+At this point the system is set up to run react native applications. There are several options for spinning up a new react native app. I have used the CLI to create apps with and without expo. I have also used a 3rd party CLI called Ignite from InfiniteRed. My next project will use a template from TheCodingMachine called React Native Boilerplate.

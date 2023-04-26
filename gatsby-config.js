@@ -33,6 +33,14 @@ module.exports = {
     }
   }, "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp",
   {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      name: 'blog',
+      path: 'blog'
+    },
+    __key: 'blog'
+    },
+  {
       resolve: 'gatsby-plugin-mdx',
       options: {
         gatsbyRemarkPlugins: [
@@ -45,14 +53,6 @@ module.exports = {
         ],
       },
     },  
-  {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      name: 'blog',
-      path: 'blog',
-      // ignore: isDev ? [] : ['**/drafts'],
-    },
-  },  
   {
     resolve: 'gatsby-source-filesystem',
     options: {
