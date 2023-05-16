@@ -1,24 +1,46 @@
-import * as React from "react"
-// import { Link } from 'gatsby'
-import Header from "../components/header"
-import Footer from "../components/footer"
+import React from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageTopics from '@site/src/components/HomepageTopics';
+import HeroTest from '@site/src/components/HeroTest';
 
-const IndexPage = () => {
+import styles from './index.module.css';
+
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
   return (
-    <main>
-      <Header />
-      <div className="mx-auto max-w-screen-xl">
-        <div className="ml-7 mt-6 justify-between">
-          <h1>Welcome to my Gatsby site!</h1>
-          <p>I'm making this by following the Gatsby Tutorial.</p>
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        {/* <h2 className="hero__title"> Добро пожаловать на мой сайт </h2> */}
+        <p className="hero__subtitle">Персональный сайт для хранения полезной информации и заметок</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/blog">
+            Перейти к записям
+          </Link>
         </div>
       </div>
-      <Footer />
-    </main>
-  )
+    </header>
+  );
 }
 
-
-export const Head = () => <title>Home Page</title>
-
-export default IndexPage
+export default function Home() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <Layout
+      title={`Personal blog ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
+      <HomepageHeader />
+      <main>
+        {/* <HomepageFeatures /> */}
+        <HomepageTopics />
+      </main>
+      <HeroTest />
+    </Layout>
+  );
+}
