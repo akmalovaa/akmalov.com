@@ -35,7 +35,7 @@ const config = {
           showReadingTime: true,
           blogSidebarCount: 0,
           editUrl:
-            'https://github.com/akmalovaa/akmalov.com/tree/main/blog',
+            'https://github.com/akmalovaa/akmalov.com/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

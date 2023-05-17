@@ -112,8 +112,8 @@ html[data-theme="dark"] .DocSearch-Hit[aria-selected="true"] a {
   justify-content: space-between;
   width: 100%;
   /* max-width: var(--ifm-container-width); */
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px;
+  margin: 0 auto; */
 }
 
 .hero__subtitle2 {
