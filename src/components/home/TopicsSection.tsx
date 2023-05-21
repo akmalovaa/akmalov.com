@@ -26,49 +26,49 @@ export default function ClientSection() {
 
                 <div className='row row--center'>
                     <Link
-                        to='/blog/tags/Linux'
+                        to='/blog/tags/linux'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
                         <Linux color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Linux</div>
                     </Link>
                     <Link
-                        to='/blog/tags/Python'
+                        to='/blog/tags/python'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
                         <Python color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Python</div>
                     </Link>
                     <Link
-                        to='/blog/tags/Python'
+                        to='/blog/tags/devops'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
                         <Googlecolab color='#ffffff' size={48} />
                         <div className='margin-top--sm'>DevOps</div>
                     </Link>
                     <Link
-                        to='/blog/tags/Python'
+                        to='/blog/tags/k8s'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
                         <Kubernetes color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Kuberneters</div>
                     </Link>
                     <Link
-                        to='/blog/tags/Python'
+                        to='/blog/tags/docker'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
                         <Docker color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Docker</div>
                     </Link>
                     <Link
-                        to='/blog/tags/Python'
+                        to='/blog/tags/homelab'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
                         <Googlehome color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Homelab</div>
                     </Link>
                     <Link
-                        to='/blog/tags/Networks'
+                        to='/blog/tags/networks'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
                         <Icon path={mdiAccessPointNetwork} size='48px' className='fill-white' />

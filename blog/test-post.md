@@ -1,8 +1,15 @@
 ---
-slug: mdx-blog-post
-title: MDX Blog Post
-tags: [docusaurus]
+slug: test-post
+title: First test post
+tags: [hello, docusaurus]
+date: 2021-09-13T10:00
 ---
+
+This is the summary of a very long blog post,
+
+Use a `<!--` `truncate` `-->` comment to limit blog post size in the list view.
+
+<!--truncate-->
 
 Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).
 
