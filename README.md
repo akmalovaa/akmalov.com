@@ -16,7 +16,7 @@ Git clone this project into local
 
 ```shell
 git clone https://github.com/akmalovaa/akmalov.com.git
-cd mxsm-website
+cd akmalov.com
 ```
 
 then update
