@@ -22,3 +22,4 @@ jobs:
       # - run: npm run typecheck
       # - run: npm run format:check
       - run: npm run build
+      - run: GIT_USER=akmalovaa npm run deploy
