@@ -1,7 +1,7 @@
 ---
 slug: test-post
 title: First test post
-tags: [linux, python, devops, k8s, networks]
+tags: [linux, python, kubernetes, devops, networks]
 date: 2021-09-13T10:00
 ---
 

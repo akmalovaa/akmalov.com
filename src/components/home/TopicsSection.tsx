@@ -47,7 +47,7 @@ export default function ClientSection() {
                         <div className='margin-top--sm'>DevOps</div>
                     </Link>
                     <Link
-                        to='/blog/tags/k8s'
+                        to='/blog/tags/kubernetes'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
                         <Kubernetes color='#ffffff' size={48} />
