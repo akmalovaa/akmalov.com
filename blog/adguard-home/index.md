@@ -1,6 +1,8 @@
 ---
 slug: adguard-home
 title: Adguard Home
+description: Adguard Home DNS server guide
+# image: 
 tags: [docker, homelab, adguard, dns]
 ---
 
