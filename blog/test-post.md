@@ -1,7 +1,7 @@
 ---
 slug: test-post
 title: First test post
-tags: [hello, docusaurus]
+tags: [linux, python, devops, k8s, networks]
 date: 2021-09-13T10:00
 ---
 
