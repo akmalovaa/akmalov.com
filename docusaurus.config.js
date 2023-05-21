@@ -78,16 +78,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      // sidebar: {
-      //   hideable: false,
-      // },
-      // algolia: {
-      //   appId: 'TX89NNWRFT',
-      //   apiKey: '504e88ecd6f2adbeb56f34a358dd0cba',
-      //   indexName: 'akmalov.com',
-      //   contextualSearch: true,
-      //   placeholder: "Search...",
-      // },
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true,
