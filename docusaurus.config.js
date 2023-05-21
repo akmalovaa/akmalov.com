@@ -95,4 +95,11 @@ const config = {
   ]
 };
 
-module.exports = config;
+// module.exports = config;
+module.exports = {
+  url: 'https://test.akmalov.com',
+  baseUrl: '/',
+  organizationName: 'akmalovaa',
+  projectName: 'akmalov.com',
+  trailingSlash: false,
+};
