@@ -3,9 +3,9 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import HomepageTopics from '@site/src/components/HomepageTopics';
-import HeroTest from '@site/src/components/HeroTest';
+import TopicsSection from '../components/home/TopicsSection';
+import HomeHeader from "../components/home/HomeHero";
+import AboutSite from "../components/home/AboutSite";
 
 import styles from './index.module.css';
 
@@ -15,32 +15,33 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        {/* <h2 className="hero__title"> Добро пожаловать на мой сайт </h2> */}
-        <p className="hero__subtitle">Персональный сайт для хранения полезной информации и заметок</p>
-        <div className={styles.buttons}>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/blog">
-            Перейти к записям
+            to="/docs/intro">
+            Docusaurus Tutorial - 5min ⏱️
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
 }
 
-export default function Home() {
+export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Personal blog ${siteConfig.title}`}
+      title={`Personal Blog ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
+      {/* <HomepageHeader /> */}
+      <HomeHeader />
+      {/* <main> */}
         {/* <HomepageFeatures /> */}
-        <HomepageTopics />
-      </main>
-      <HeroTest />
+
+      {/* </main> */}
+      <TopicsSection />
+      <AboutSite />
     </Layout>
   );
 }

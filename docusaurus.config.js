@@ -1,21 +1,20 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Artur Akmalov',
-  tagline: 'Блог ',
+  tagline: 'Personal Blog',
   favicon: 'img/favicon.ico',
-  url: 'https://dev.akmalov.com',
+  url: 'https://test.akmalov.com',
   baseUrl: '/',
-
-  // GitHub pages deployment config
-  organizationName: 'akmalovaa', 
-  projectName: 'akmalov.com',
-
+  organizationName: 'akmalovaa',
+  projectName: 'akmalov.com', 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
   i18n: {
     defaultLocale: 'ru',
     locales: ['ru'],
@@ -29,7 +28,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/akmalovaa/akmalov.com/tree/main/docs',
+            'https://github.com/akmalovaa/akmalov.com/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -39,12 +38,6 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-        sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
         },
       }),
     ],
@@ -56,8 +49,6 @@ const config = {
       image: 'img/logo.svg',
       navbar: {
         title: 'Akmalov Artur',
-        // style: 'primary',
-        // hideOnScroll: true,
         logo: {
           alt: 'Akmalov Artur',
           src: 'img/logo.svg',
@@ -71,6 +62,12 @@ const config = {
             label: 'Docs',
           },
           { to: "/about", label: "About", position: "right" },
+          {
+            href: "https://github.com/akmalovaa",
+            position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub",
+          }
         ],
       },
       footer: {
@@ -81,22 +78,29 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      sidebar: {
-        hideable: false,
-      },
-      algolia: {
-        appId: 'TX89NNWRFT',
-        apiKey: '504e88ecd6f2adbeb56f34a358dd0cba',
-        indexName: 'akmalov.com',
-        contextualSearch: true,
-        placeholder: "Search...",
-      },
+      // sidebar: {
+      //   hideable: false,
+      // },
+      // algolia: {
+      //   appId: 'TX89NNWRFT',
+      //   apiKey: '504e88ecd6f2adbeb56f34a358dd0cba',
+      //   indexName: 'akmalov.com',
+      //   contextualSearch: true,
+      //   placeholder: "Search...",
+      // },
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: 'dark',
         disableSwitch: true,
-        respectPrefersColorScheme: false,
+        respectPrefersColorScheme: true,
       },
     }),
+  plugins: [
+    [
+      'docusaurus-plugin-sass',
+      /** @type {import('docusaurus-plugin-sass').Options} */
+      {}
+    ],
+  ]
 };
 
 module.exports = config;
