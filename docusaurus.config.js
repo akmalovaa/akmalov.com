@@ -12,7 +12,9 @@ const config = {
   url: 'https://test.akmalov.com',
   baseUrl: '/',
   organizationName: 'akmalovaa',
-  projectName: 'akmalov.com', 
+  projectName: 'akmalov.com',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
