@@ -1,8 +1,10 @@
 {
-  "name": "doc-ts",
-  "version": "0.0.0",
+  "name": "akmalov.com",
+  "version": "1.0.0",
   "private": true,
+  "https": "https:////akmalovaa.github.io/akmalov.com",
   "scripts": {
+    "deploy-ghp": "gh-pages -d dist",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -42,6 +44,7 @@
     "@types/react-router-dom": "5.3.3",
     "@typescript-eslint/eslint-plugin": "5.59.5",
     "@typescript-eslint/parser": "5.59.5",
+    "gh-pages": "^5.0.0",
     "typescript": "5.0.4",
     "typescript-plugin-css-modules": "5.0.1"
   },
