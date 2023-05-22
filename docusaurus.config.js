@@ -77,13 +77,13 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Akmalov Artur`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
+        // darkTheme: darkCodeTheme,
       },
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true,
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
       },
     }),
   plugins: [
