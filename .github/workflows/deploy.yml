@@ -11,8 +11,6 @@ jobs:
       name: github-pages
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
-    permissions:
-      issues: read
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
