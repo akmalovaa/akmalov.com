@@ -7,7 +7,7 @@
 </pre>
 
 <pre align="center">
-    <a href="https://test.akmalov.com">🖥 Online Preview</a>
+    <a href="https://akmalov.com">🖥 Online Preview</a>
 </pre>
 
 ## Local Development

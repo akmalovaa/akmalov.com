@@ -2,7 +2,7 @@
   "name": "akmalov.com",
   "version": "1.0.0",
   "private": true,
-  "https": "https:////akmalovaa.github.io/akmalov.com",
+  "https": "https://akmalov.com",
   "scripts": {
     "deploy-ghp": "gh-pages -d dist",
     "docusaurus": "docusaurus",
