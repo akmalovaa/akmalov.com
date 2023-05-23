@@ -161,7 +161,7 @@ DNS Upstream необходимо указать тип DNS over HTTPS, уста
 
 **Проверка DNS over HTTPS**
 
-для этого использую сервис Cloudflare [1.1.1.1/help](1.1.1.1/help)
+для этого использую сервис Cloudflare [1.1.1.1/help](https://1.1.1.1/help)
 
 ![doh-test](./doh-test.png "Chech DNS over HTTPS")
 
