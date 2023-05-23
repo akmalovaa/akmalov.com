@@ -9,7 +9,7 @@ const config = {
   title: 'Artur Akmalov',
   tagline: 'Personal Blog',
   favicon: 'img/favicon.ico',
-  url: 'https://test.akmalov.com',
+  url: 'https://akmalov.com',
   baseUrl: '/',
   organizationName: 'akmalovaa',
   projectName: 'akmalov.com',

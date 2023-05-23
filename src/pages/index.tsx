@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Personal Blog ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Акмалов Артур - личный блог для записей по темам Devops, Python, Linux, Homelab, k8s">
       {/* <HomepageHeader /> */}
       <HomeHeader />
       {/* <main> */}
