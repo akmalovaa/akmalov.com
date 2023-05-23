@@ -9,6 +9,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
+      TOKEN: ${{ secrets.GITHUB_TOKEN }}
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
@@ -31,4 +32,4 @@ jobs:
           publish_dir: ./build
       
       - name: GitHub Pages custom URL
-        run: bash github-page-url.sh
+        run: bash GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-page-url.sh
