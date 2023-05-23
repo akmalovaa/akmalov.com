@@ -11,6 +11,8 @@ jobs:
       name: github-pages
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    permissions:
+      issues: read
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -30,6 +32,11 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
       
-      - name: GitHub Pages change URL
-        shell: bash
-        run: GITHUB_TOKEN=${{secrets.github_token}} ./github-page-url.sh
+      # - name: GitHub Pages change URL
+      #   run: bash github-page-url.sh
+
+      - name: Use API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --header 'Accept: application/vnd.github+json' --method PUT /repos/akmalovaa/akmalov.com/pages -f cname="test.akmalov.com" -f source={"branch":"gh-pages","path":"/"}
