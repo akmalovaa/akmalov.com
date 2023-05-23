@@ -30,5 +30,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
       
-      - name: GitHub Pages custom URL
-        run: bash export GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-page-url.sh
+      - name: GitHub Pages change URL
+        shell: bash
+        run: GITHUB_TOKEN=${{secrets.github_token}} ./github-page-url.sh
