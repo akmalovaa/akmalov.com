@@ -9,7 +9,6 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      TOKEN: ${{ secrets.GITHUB_TOKEN }}
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
