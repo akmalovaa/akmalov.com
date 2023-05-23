@@ -32,9 +32,3 @@ jobs:
       
       # - name: GitHub Pages change URL
       #   run: bash github-page-url.sh
-
-      - name: Use API
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api --header 'Accept: application/vnd.github+json' --method PUT /repos/akmalovaa/akmalov.com/pages -f cname="test.akmalov.com"
