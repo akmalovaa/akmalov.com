@@ -1,7 +1,7 @@
 ---
 slug: image-generator-python-flask-docker
 title: Image generator
-description: Image generator Python - Создать изображение необходимого размера веса"
+description: Image generator Python - Создать изображение необходимого размера веса
 # image: 
 tags: [docker, python, flask, image]
 date: 2022-01-23
