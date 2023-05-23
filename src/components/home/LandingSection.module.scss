@@ -4,16 +4,21 @@
   padding: 12pt 0;
 }
 
+.logo {
+  width: 6em;
+}
+
+
 .landing-section:first-child {
+  border-top: 1px solid #eee;
 }
 
 .landing-section:nth-child(even) {
   background-color: #1b1b1d;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .landing-section:last-child {
-}
-
-.logo {
-  width: 6em;
+  border-bottom: 1px solid #eee;
 }
