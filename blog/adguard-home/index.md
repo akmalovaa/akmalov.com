@@ -2,7 +2,7 @@
 slug: adguard-home
 title: Adguard Home
 description: Adguard Home DNS server guide
-# image: 
+image: ./adguard_home_darkmode.svg
 tags: [docker, homelab, adguard, dns]
 date: 2021-10-13T10:00
 ---

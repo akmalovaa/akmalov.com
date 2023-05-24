@@ -1,5 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+require("dotenv").config();
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -35,8 +36,23 @@ const config = {
         blog: {
           showReadingTime: true,
           blogSidebarCount: 0,
-          editUrl:
-            'https://github.com/akmalovaa/akmalov.com/tree/main/',
+          editUrl: 'https://github.com/akmalovaa/akmalov.com/tree/main/',
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
+        },
+        gtag: {
+          trackingID: process.env.GOOGLE_ANALYTICS_TAG_ID,
+          anonymizeIP: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

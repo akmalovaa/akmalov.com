@@ -2,7 +2,7 @@
 slug: releases-info
 title: Releases info
 description: releases check latest version
-# image: 
+image: ./update-releases.png
 tags: [docker, python, flask, releases]
 date: 2023-05-15
 ---

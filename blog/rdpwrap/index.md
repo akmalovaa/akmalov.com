@@ -2,7 +2,7 @@
 slug: rdp-wrapper
 title: RDP wrapper
 description: Что такое RDP wrapper, как его устанавливать, краткая инструкция как создать пользователя для удаленного рабочего стола
-# image: 
+image: ./logo-rdpwrap.png
 tags: [rdp, windows, server]
 date: 2019-06-21
 ---
