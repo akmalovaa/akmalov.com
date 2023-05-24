@@ -7,6 +7,7 @@
     <link rel="alternate" href="https://akmalov.com/blog"/>
     <subtitle>Artur Akmalov Blog</subtitle>
     <icon>https://akmalov.com/img/favicon.ico</icon>
+    <rights>Copyright © 2023 Facebook, Inc.</rights>
     <entry>
         <title type="html"><![CDATA[Releases info]]></title>
         <id>https://akmalov.com/blog/releases-info</id>
