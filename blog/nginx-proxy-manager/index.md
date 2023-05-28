@@ -7,7 +7,7 @@ tags: [docker, homelab, nginx, proxy]
 date: 2022-01-08
 ---
 
-NGINX Proxy Manager - сервис (WEB GUI) для управления конфигурацией NGINX. Идет как готовый docker контейнер, в проекте реализовано максимально простое и удобное управление основным базовым функционалом NGINX.
+NGINX Proxy Manager - сервис (WEB GUI) для управления конфигурацией NGINX. Идет как готовый docker контейнер, в проекте реализовано максимально простое и удобное управление основным базовым функциями NGINX.
 
 [![nginx logo](./nginx-proxy-manager-logo.png)](/blog/nginx-proxy-manager)
 
