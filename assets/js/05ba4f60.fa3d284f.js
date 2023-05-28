@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[7459],{5554:a=>{a.exports=JSON.parse('{"label":"proxy","permalink":"/blog/tags/proxy","allTagsPath":"/blog/tags","count":1}')}}]);

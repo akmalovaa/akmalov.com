@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[6878],{1050:a=>{a.exports=JSON.parse('{"label":"homelab","permalink":"/blog/tags/homelab","allTagsPath":"/blog/tags","count":2}')}}]);
