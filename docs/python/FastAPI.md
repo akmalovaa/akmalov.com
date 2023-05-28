@@ -1,7 +1,7 @@
 ---
-sidebar_position: 2
+sidebar_position: 10
 ---
 
-# Fast API
+# fast api
 
 Тут про Fast API
