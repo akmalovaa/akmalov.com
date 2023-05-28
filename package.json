@@ -19,7 +19,6 @@
   "dependencies": {
     "@docusaurus/core": "2.4.1",
     "@docusaurus/preset-classic": "2.4.1",
-    "@docusaurus/theme-search-algolia": "^2.4.1",
     "@icons-pack/react-simple-icons": "5.11.0",
     "@mdi/js": "^7.2.96",
     "@mdi/react": "^1.6.1",
