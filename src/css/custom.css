@@ -65,3 +65,7 @@
   display: flex;
   background: url("/img/github.svg") 0 center / 25px 25px no-repeat;
 }
+
+html[data-theme="dark"] .DocSearch-Hit[aria-selected="true"] a {
+  background-color: #000;
+}
