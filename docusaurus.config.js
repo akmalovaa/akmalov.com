@@ -109,7 +109,7 @@ const config = {
       {}
     ],
     ['docusaurus-plugin-yandex-metrica', {
-      counterID: '55749094',
+      counterID: '91073403',
     }],
   ]
 };
