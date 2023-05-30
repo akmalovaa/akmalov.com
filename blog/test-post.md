@@ -1,7 +1,7 @@
 ---
 slug: test-post
 title: First test post
-tags: [kubernetes, devops]
+tags: [kubernetes]
 date: 2017-09-13T10:00
 ---
 
