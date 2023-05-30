@@ -110,11 +110,11 @@ variables:
 Данный вариант более гибкий и удобный в плане доработок под разные условия.
 Есть так же возможность вызывать как python script в ``gitlab-ci``
 
-Полный код на github [https://github.com/akmalovaa/gitlab-auto-add-reviewers/tree/master/Python]
+Полный код на [github](https://github.com/akmalovaa/gitlab-auto-add-reviewers/tree/master/Python)
 
 Python/settings.py
 ```Python
-GITLAB_API_ADDR = '<https://gitlab.com>'      # Your Gitlab URL
+GITLAB_API_ADDR = '<https://gitlab.com>'    # Your Gitlab URL
 GITLAB_TOKEN='YOUR GITLAB API TOKEN'        # API Token use import .env
 GITLAB_ROOT_GROUP = ''                      # Root Group optional
 GITLAB_REVIEWERS: list = [10043654]         # Gitlab Reviewrs ID
