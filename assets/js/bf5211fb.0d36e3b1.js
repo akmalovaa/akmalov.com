@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[8315],{1703:s=>{s.exports=JSON.parse('{"title":"Misc","description":"Misc","slug":"/category/misc","permalink":"/docs/category/misc","navigation":{"previous":{"title":"Tips and Tricks","permalink":"/docs/mikrotik/tips_and_tricks"},"next":{"title":"Bash","permalink":"/docs/misc/bash"}}}')}}]);
