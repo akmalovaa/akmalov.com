@@ -7,7 +7,7 @@ tags: [blog, docusaurus, github, giscus]
 date: 2023-06-17
 ---
 
-Добавление комментарий, обсуждений в запиях блога docusaurus
+Добавить комментарии, обсуждения в записях блога docusaurus
 
 [![docusaurus comments](./docusaurus-comments.png)](/blog/docusaurus-comments)
 
