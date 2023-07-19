@@ -14,6 +14,7 @@ sidebar_position: 1
 - [Deluge](https://dev.deluge-torrent.org/wiki/Download)
 - [Telegram](https://desktop.telegram.org/)
 - [Google Chrome](https://www.google.com/chrome/)
+- [OpenLens](https://github.com/MuhammedKalkan/OpenLens)
 
 ## VSCode
 
@@ -28,3 +29,14 @@ Host <IP>
   IdentityFile ~/.ssh/id_rsa
 ```
 maybe rename id_rsa.pub to authorized_keys
+
+## OpenLens
+
+OpenLens extensions
+
+Для просмотра логов нужно добавить расширение
+
+```
+@alebcay/openlens-node-pod-menu
+```
+

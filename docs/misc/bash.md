@@ -17,6 +17,12 @@ cat access.log | gzip -c -9 > /home/access.log-20220815.gz
 cat access.log | pv -s $(ls -la /var/log/nginx/access.log | awk '{print $5}') | gzip -c -9 > /home/access.log-20220815.gz
 ```
 
+## Check port
+
+```bash
+nc -zv <host> <port>
+```
+
 
 ## SSH menu
 
