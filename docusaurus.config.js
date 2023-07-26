@@ -50,10 +50,10 @@ const config = {
             },
           },
         },
-        // gtag: {
-        //   // trackingID: process.env.GOOGLE_ANALYTICS_TAG_ID,
-        //   anonymizeIP: true,
-        // },
+        gtag: {
+          trackingID: process.env.GOOGLE_ANALYTICS_TAG_ID,
+          anonymizeIP: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -91,12 +91,12 @@ const config = {
         style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} Akmalov Artur`,
       },
-      // algolia: {
-      //   appId: process.env.ALGOLIA_APP_ID,
-      //   apiKey: process.env.ALGOLIA_API_KEY,
-      //   indexName: process.env.ALGOLIA_INDEX_NAME,
-      //   searchParameters: {},
-      // },
+      algolia: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        searchParameters: {},
+      },
       prism: {
         theme: darkCodeTheme,
         // darkTheme: darkCodeTheme,
