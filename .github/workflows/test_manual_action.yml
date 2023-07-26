@@ -1,10 +1,10 @@
-name: Algolia update index
+name: Manual action for testing
 
 on:
   workflow_dispatch:
 
 jobs:
-  job_algolia:
+  test_algolia:
     name: Algolia updates
     runs-on: ubuntu-latest
     env:
