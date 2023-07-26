@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[6945],{6945:(a,k,c)=>{c.r(k)}}]);
