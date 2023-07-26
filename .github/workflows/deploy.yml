@@ -36,6 +36,7 @@ jobs:
           publish_dir: ./build
   
   algolia:
+    needs: deploy
     name: Algolia updates
     runs-on: ubuntu-latest
     env:
@@ -48,4 +49,4 @@ jobs:
       
     - name: Run Docker image
       run: |
-        echo "Running algolia docker image"
+        docker run hello-world:latest
