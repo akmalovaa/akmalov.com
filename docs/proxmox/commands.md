@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# commands
+# Commands
 
 ## Proxmox Directory 
 ### Конфиги LXC 

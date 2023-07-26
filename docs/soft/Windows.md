@@ -1,42 +1,16 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Windows
 
-Список ПО которые я использую
+Список набор программ
 
 - [VSCode](https://code.visualstudio.com/)
 - [Obsidian](https://obsidian.md/)
-- [MobaXterm](https://mobaxterm.mobatek.net/download.html)
 - [Yandex.Disk](https://disk.yandex.ru/client/disk)
 - [WireGuard](https://www.wireguard.com/install/)
 - [Deluge](https://dev.deluge-torrent.org/wiki/Download)
 - [Telegram](https://desktop.telegram.org/)
 - [Google Chrome](https://www.google.com/chrome/)
 - [OpenLens](https://github.com/MuhammedKalkan/OpenLens)
-
-## VSCode
-
-Пример конфига для подключения по SSH key (~/ssh/config)
-
-Remote SSH - Microsoft
-
-```
-Host <IP>
-  HostName <IP>
-  User <USER>
-  IdentityFile ~/.ssh/id_rsa
-```
-maybe rename id_rsa.pub to authorized_keys
-
-## OpenLens
-
-OpenLens extensions
-
-Для просмотра логов нужно добавить расширение
-
-```
-@alebcay/openlens-node-pod-menu
-```
-

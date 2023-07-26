@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# kubespray
+# Kubespray
 
 Добавить инфо по kubespray

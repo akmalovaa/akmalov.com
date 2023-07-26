@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# commands
+# Commands
 
 ## k8s resources usage
 Просмотр потребления ресурсов контейнеров внутри пода

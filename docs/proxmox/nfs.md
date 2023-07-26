@@ -18,7 +18,7 @@ chown nobody:nogroup $FOLDER
 ```
 
 ```
-echo "$FOLDER 10.127.0.0/24(rw,sync,no_subtree_check)" >> /etc/exports
+echo "$FOLDER 10.6.0.0/24(rw,sync,no_subtree_check)" >> /etc/exports
 ```
 ```
 systemctl restart nfs-kernel-server
@@ -27,7 +27,7 @@ systemctl restart nfs-kernel-server
 /usr/share/nginx/html
 ```
 ```
-/mnt/nginx 10.127.0.0/24(rw,sync,no_subtree_check) >> /etc/exports
+/mnt/nginx 10.6.0.0/24(rw,sync,no_subtree_check) >> /etc/exports
 ```
 ```
 systemctl status nfs-kernel-server

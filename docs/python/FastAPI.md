@@ -2,6 +2,6 @@
 sidebar_position: 10
 ---
 
-# fast api
+# Fast api
 
 Тут про Fast API

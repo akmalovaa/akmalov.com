@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# commands
+# Commands
 
 Тут частые команды
 
