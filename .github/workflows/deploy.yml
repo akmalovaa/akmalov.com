@@ -34,3 +34,18 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+  
+  algolia:
+    name: Algolia updates
+    runs-on: ubuntu-latest
+    env:
+      ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+      ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+      ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Run Docker image
+      run: |
+        echo "Running algolia docker image"
