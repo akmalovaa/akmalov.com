@@ -40,8 +40,8 @@ jobs:
     name: Algolia updates
     runs-on: ubuntu-latest
     env:
-      ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
-      ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+      APPLICATION_ID: ${{ secrets.ALGOLIA_APP_ID }}
+      API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
       ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
     steps:
     - name: Checkout code
@@ -49,4 +49,4 @@ jobs:
       
     - name: Run Docker image
       run: |
-        docker run hello-world:latest
+        docker run -it -e APPLICATION_ID=$APPLICATION_ID -e API_KEY=$API_KEY -e "CONFIG=$(cat algolia_config.json | jq -r tostring)" algolia/docsearch-scraper
