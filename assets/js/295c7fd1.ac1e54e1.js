@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[9829],{5204:t=>{t.exports=JSON.parse('{"title":"Python","description":"Python docs","slug":"/category/python","permalink":"/docs/category/python","navigation":{"previous":{"title":"Settings","permalink":"/docs/soft/settings"},"next":{"title":"Install","permalink":"/docs/python/install"}}}')}}]);
