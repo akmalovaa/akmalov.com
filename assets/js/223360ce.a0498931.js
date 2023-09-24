@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[3584],{361:a=>{a.exports=JSON.parse('{"label":"cert","permalink":"/blog/tags/cert","allTagsPath":"/blog/tags","count":1}')}}]);
