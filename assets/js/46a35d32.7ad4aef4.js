@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[2898],{5421:a=>{a.exports=JSON.parse('{"label":"caddy","permalink":"/blog/tags/caddy","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[6984],{7694:a=>{a.exports=JSON.parse('{"label":"timeweb","permalink":"/blog/tags/timeweb","allTagsPath":"/blog/tags","count":1}')}}]);
