@@ -1,2 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: /
+Allow: /$
+Allow: /blog/
+Allow: /docs/
+Allow: /about
+Sitemap: https://akmalov.com/sitemap.xml
