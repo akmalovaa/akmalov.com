@@ -1,8 +1,10 @@
 User-agent: *
 Disallow: /
+Disallow: /blog/tags/
 Allow: /$
 Allow: /blog/
 Allow: /docs/
+Allow: /assets/
+Allow: /img/
 Allow: /about
-Disallow: /blog/tags/
 Sitemap: https://akmalov.com/sitemap.xml
