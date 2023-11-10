@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[3969],{5475:a=>{a.exports=JSON.parse('{"label":"prometheus","permalink":"/blog/tags/prometheus","allTagsPath":"/blog/tags","count":2}')}}]);

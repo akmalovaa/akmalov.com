@@ -14,12 +14,7 @@
             "tags": [
                 "monitoring",
                 "docker",
-                "timeweb",
-                "selectel",
-                "uptime",
-                "ssl",
-                "telegram",
-                "caddy"
+                "ssl"
             ]
         },
         {
@@ -30,13 +25,9 @@
             "summary": "Простой способ получить wildcard ssl сертификат для своего домена с использованием Cloudflare и acme.sh",
             "date_modified": "2023-09-23T10:00:00.000Z",
             "tags": [
-                "ssl",
-                "cloudflare",
-                "cert",
-                "wildcard",
-                "linux",
                 "docker",
-                "acme"
+                "homelab",
+                "ssl"
             ]
         },
         {
@@ -48,10 +39,7 @@
             "date_modified": "2023-07-13T10:42:00.000Z",
             "tags": [
                 "monitoring",
-                "grafana",
                 "ssl",
-                "telegram",
-                "prometheus",
                 "docker"
             ]
         },
@@ -63,10 +51,8 @@
             "summary": "Add commenst docusaurus, добавление коментариев в docusaurus с использованием Giscus",
             "date_modified": "2023-06-17T00:00:00.000Z",
             "tags": [
-                "blog",
                 "docusaurus",
-                "github",
-                "giscus"
+                "github"
             ]
         },
         {
@@ -92,9 +78,6 @@
             "date_modified": "2023-05-28T00:00:00.000Z",
             "tags": [
                 "docker",
-                "linux",
-                "prometheus",
-                "grafana",
                 "monitoring"
             ]
         },
@@ -136,8 +119,7 @@
             "tags": [
                 "docker",
                 "homelab",
-                "nginx",
-                "proxy"
+                "nginx"
             ]
         },
         {
@@ -150,8 +132,7 @@
             "tags": [
                 "docker",
                 "homelab",
-                "adguard",
-                "dns"
+                "networks"
             ]
         }
     ]

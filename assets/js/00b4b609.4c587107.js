@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[2545],{8090:a=>{a.exports=JSON.parse('{"label":"uptime","permalink":"/blog/tags/uptime","allTagsPath":"/blog/tags","count":1}')}}]);

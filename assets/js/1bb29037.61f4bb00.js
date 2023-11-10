@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[946],{1531:a=>{a.exports=JSON.parse('{"label":"dns","permalink":"/blog/tags/dns","allTagsPath":"/blog/tags","count":1}')}}]);

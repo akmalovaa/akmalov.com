@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[7726],{9310:e=>{e.exports=JSON.parse('{"label":"selectel","permalink":"/blog/tags/selectel","allTagsPath":"/blog/tags","count":1}')}}]);
