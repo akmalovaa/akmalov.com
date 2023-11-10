@@ -4,4 +4,5 @@ Allow: /$
 Allow: /blog/
 Allow: /docs/
 Allow: /about
+Disallow: /blog/tags/
 Sitemap: https://akmalov.com/sitemap.xml
