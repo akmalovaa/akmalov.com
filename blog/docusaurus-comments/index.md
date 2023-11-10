@@ -3,7 +3,8 @@ slug: docusaurus-comments
 title: Docusaurus комментарии
 description: Add commenst docusaurus, добавление коментариев в docusaurus с использованием Giscus
 image: ./docusaurus-comments.png
-tags: [blog, docusaurus, github, giscus]
+tags: [docusaurus, github]
+keywords: [docusaurus, comments, github, blog]
 date: 2023-06-17
 ---
 

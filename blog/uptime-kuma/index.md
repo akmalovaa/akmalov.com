@@ -3,7 +3,8 @@ slug: uptime-kuma
 title: Uptime-kuma self-hosted monitoring
 description: Простой и удобный способ мониторить хосты
 image: ./uptime-kuma-logo.png
-tags: [monitoring, docker, timeweb, selectel, uptime, ssl, telegram, caddy]
+tags: [monitoring, docker, ssl]
+keywords: [uptime-kuma, monitoring, docker, timeweb, selectel, uptime, ssl, telegram, caddy]
 date: 2023-11-06T10:00
 ---
 

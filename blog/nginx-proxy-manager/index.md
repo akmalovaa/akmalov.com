@@ -3,7 +3,8 @@ slug: nginx-proxy-manager
 title: NGINX Proxy Manager
 description: NGINX Proxy Manager - сервис (WEB GUI) для управления конфигурацией NGINX
 image: ./nginx-proxy-manager-logo.png
-tags: [docker, homelab, nginx, proxy]
+tags: [docker, homelab, nginx]
+keywords: [nginx, proxy, manager, web, gui, docker, docker-compose]
 date: 2022-01-08
 ---
 

@@ -4,6 +4,7 @@ title: Image generator
 description: Image generator Python - Создать изображение необходимого размера веса
 image: ./image-generator.png
 tags: [docker, python, flask, image]
+kewords: [image-generator, docker, flask, image-size, github]
 date: 2022-01-23
 ---
 

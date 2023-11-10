@@ -3,7 +3,8 @@ slug: monitoring-web-hosts
 title: Monitoring web hosts
 description: monitoring web ssl certificate expried uptime kuma grafana prometheus docker
 image: ./monitoring-web-hosts-logo.png
-tags: [monitoring, grafana, ssl, telegram, prometheus, docker]
+tags: [monitoring, ssl, docker]
+keywords: [monitoring, grafana, ssl, telegram, prometheus, docker]
 date: 2023-07-13T10:42
 ---
 

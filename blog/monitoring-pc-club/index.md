@@ -3,7 +3,8 @@ slug: monitoring-pc-club
 title: Мониторинг для компьютерного клуба
 description: Система мониторинга в компьютерном клубе
 image: ./monitoring-pc-club.png
-tags: [docker, linux, prometheus, grafana, monitoring]
+tags: [docker, monitoring]
+keywords: [monitoring, docker, linux, prometheus, grafana, monitoring]
 date: 2023-05-28
 ---
 
