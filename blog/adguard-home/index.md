@@ -34,7 +34,9 @@ date: 2021-10-13T10:00
 Обновление пакетов и установка docker
 ```
 apt update && apt upgrade -y
-apt install -y docker.io docker-compose
+apt install -y curl
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
 ```
 
 
@@ -116,7 +118,7 @@ systemctl restart systemd-resolved.service
 И можно запускать docker-compose
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ## 3. Настройка AdGuard Home

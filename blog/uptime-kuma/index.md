@@ -62,7 +62,9 @@ date: 2023-11-06T10:00
 
 ```
 apt update && apt upgrade -y
-apt install -y docker.io docker-compose
+apt install -y curl
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
 ```
 
 Конфигурация DNS перенаправление `monitoring.example.com` - на полученный белый IP от timeweb
@@ -103,7 +105,7 @@ monitoring.example.com {
 
 Запуск контейнера
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 
