@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[8315],{1703:i=>{i.exports=JSON.parse('{"title":"Misc","description":"Misc","slug":"/category/misc","permalink":"/docs/category/misc","navigation":{"previous":{"title":"Gitlab","permalink":"/docs/git/gitlab"},"next":{"title":"Bash","permalink":"/docs/misc/bash"}}}')}}]);

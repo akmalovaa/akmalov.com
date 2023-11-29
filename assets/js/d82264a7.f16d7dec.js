@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[9074],{7040:a=>{a.exports=JSON.parse('{"label":"rdp","permalink":"/blog/tags/rdp","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

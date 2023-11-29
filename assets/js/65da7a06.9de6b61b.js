@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[1031],{2379:a=>{a.exports=JSON.parse('{"label":"flask","permalink":"/blog/tags/flask","allTagsPath":"/blog/tags","count":2}')}}]);
