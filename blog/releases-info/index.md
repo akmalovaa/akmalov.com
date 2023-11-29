@@ -48,7 +48,7 @@ services:
     version: 22.11.0
 ```
 
-Например ссылка <https://github.com/getsentry/sentry>
+Например ссылка [https://github.com/getsentry/sentry](https://github.com/getsentry/sentry)
 
 - owner (владелец) - getsentry
 - repo (репозиторий) - sentry

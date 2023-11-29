@@ -4,4 +4,4 @@ sidebar_position: 3
 
 # Helm charts
 
-Общее хранилище чартов - <https://artifacthub.io>
+Общее хранилище чартов - [artifacthub.io](https://artifacthub.io)

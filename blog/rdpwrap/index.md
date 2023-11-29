@@ -36,7 +36,7 @@ RDP (Remote Desktop Protocol) — дословно протокол Удален
 
 ### О RDPwrapper
 
-Была такая репа на Github <https://github.com/stascorp/rdpwrap>.
+Была такая репа на Github [https://github.com/stascorp/rdpwrap](https://github.com/stascorp/rdpwrap)
 Цель этого проекта - включить поддержку хоста удаленного рабочего стола и одновременные сеансы RDP в системах с ограниченной функциональностью для домашнего использования.
 
 т.е. позволяет на любой системе использовать все преимущества RDP как в Windows Server, что является нарушением лицензии и делать такое нельзя. Далее в ознакомительных целях
@@ -48,7 +48,7 @@ RDP (Remote Desktop Protocol) — дословно протокол Удален
 
 1. Отключить антивирус, создать папку C:\Program Files\RDP Wrapper и добавить его в ислючение
 
-2. Скачать RDP Wrapper <https://github.com/stascorp/rdpwrap/releases/download/v1.6.2/RDPWrap-v1.6.2.zip> и распаковать в ранее созданную папку
+2. [Скачать RDP Wrapper](https://github.com/stascorp/rdpwrap/releases/download/v1.6.2/RDPWrap-v1.6.2.zip) и распаковать в ранее созданную папку
 3. Скачать файл [autoupdate.bat](https://t.me/rdpwrap/31497) и распоквать в ту же папку с RDP Wrapper
 4. Запустить run autoupdate.bat от имени администратора
 5. Перезагрузить
@@ -68,4 +68,4 @@ RDP (Remote Desktop Protocol) — дословно протокол Удален
 
 При обновлении Windows возможно будет необходимо запустить файл autoupdate.bat
 
-Самое большое количество вопросов, обсуждений и помощи по данной теме происходит в телеграмм группе <https://t.me/rdpwrap>
+Самое большое количество вопросов, обсуждений и помощи по данной теме происходит в телеграмм группе [https://t.me/rdpwrap](https://t.me/rdpwrap)

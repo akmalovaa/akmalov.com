@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 ---
 
-# Tips and Tricks
+# Mikrotik
+## Tips and Tricks
 
 Всякие мелочи
 
@@ -49,7 +50,7 @@ https://api.telegram.org/bot*API_token*/getUpdates
 
 (Подставить свои API_TOKEN и CHAT_ID) 
 
->failure: closing connection: <400 Bad Request>
+>failure: closing connection: `400 Bad Request`
 
 При такой ошибке надо проверять синтаксис команды
 

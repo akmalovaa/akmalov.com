@@ -124,7 +124,7 @@ docker compose up -d
 ## 3. Настройка AdGuard Home
 
 После успешного запуска контейнера, открываю Web интерфейс и продолжаю настройку
-<http://YOUR-IP:3000/>
+`http://YOUR-IP:3000/`
 ![adguard-home-docker](./adguard-home-docker.png "adguard-home-docker")
 ![adguard-dns](./adguard-dns.png "adguard-dns")
 
@@ -139,9 +139,9 @@ docker compose up -d
 ![dns-black-list](./dns-black-list.png "dns-black-list")
 
 Cсылки на URL DNS black-list, которые я использую:
-- AdGuard DNS - <https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt>
-- AdAway Default Blocklist - <https://adaway.org/hosts.txt>
-- MalwareDomainList.com - <https://www.malwaredomainlist.com/hostslist/hosts.txt>
+- AdGuard DNS - `https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt`
+- AdAway Default Blocklist - `https://adaway.org/hosts.txt`
+- MalwareDomainList.com - `https://www.malwaredomainlist.com/hostslist/hosts.txt`
 
 В интернете так же можно найти более расширенные списки или добавить свои
 
@@ -155,8 +155,8 @@ Cсылки на URL DNS black-list, которые я использую:
 
 Настройки - Настройки DNS
 DNS Upstream необходимо указать тип DNS over HTTPS, установил такие:
- - <https://dns.cloudflare.com/dns-query>
- - <https://dns-unfiltered.adguard.com/dns-query>
+ - `https://dns.cloudflare.com/dns-query`
+ - `https://dns-unfiltered.adguard.com/dns-query`
 
 Если при нажатии **TEST Upstream** нет ошибок, значит все установлено правильно и можно проверять.
 
