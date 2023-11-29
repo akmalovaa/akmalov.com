@@ -114,9 +114,6 @@ const config = {
       /** @type {import('docusaurus-plugin-sass').Options} */
       {}
     ],
-    ['docusaurus-plugin-yandex-metrica', {
-      counterID: '91073403',
-    }],
   ]
 };
 
