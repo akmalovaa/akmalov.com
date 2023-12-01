@@ -1,8 +1,7 @@
 ---
 sidebar_position: 2
+title: Proxmox commands
 ---
-
-# Commands
 
 ## Proxmox Directory 
 ### Конфиги LXC 

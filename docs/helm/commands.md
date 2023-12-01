@@ -1,8 +1,7 @@
 ---
 sidebar_position: 2
+title: Helm commands
 ---
-
-# Commands
 
 ## rollback
 

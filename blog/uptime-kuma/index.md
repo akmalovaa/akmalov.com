@@ -61,10 +61,8 @@ date: 2023-11-06T10:00
 Обновление пакетов и установка docker
 
 ```
-apt update && apt upgrade -y
-apt install -y curl
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
+apt update && apt upgrade -y && apt install -y curl
+curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
 ```
 
 Конфигурация DNS перенаправление `monitoring.example.com` - на полученный белый IP от timeweb
