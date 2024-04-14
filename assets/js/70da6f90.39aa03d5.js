@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[5270],{5408:a=>{a.exports=JSON.parse('{"permalink":"/blog/tags/bash","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

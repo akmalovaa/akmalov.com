@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[919],{3519:a=>{a.exports=JSON.parse('{"label":"monitoring","permalink":"/blog/tags/monitoring","allTagsPath":"/blog/tags","count":3,"unlisted":false}')}}]);

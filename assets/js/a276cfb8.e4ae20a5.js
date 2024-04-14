@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[3466],{7261:a=>{a.exports=JSON.parse('{"label":"networks","permalink":"/blog/tags/networks","allTagsPath":"/blog/tags","count":3,"unlisted":false}')}}]);
