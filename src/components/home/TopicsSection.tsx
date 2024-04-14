@@ -2,8 +2,10 @@ import Link from '@docusaurus/Link';
 import clsx from 'clsx';
 import React from 'react';
 import {
-    Docker, Linux, Python, Kubernetes, Googlecolab, Googlehome
+    SiDocker, SiLinux, SiPython, SiKubernetes, SiGooglecolab, SiGooglehome
 } from '@icons-pack/react-simple-icons';
+
+
 import Icon from '@mdi/react';
 import { mdiAccessPointNetwork } from '@mdi/js';
 
@@ -29,42 +31,42 @@ export default function ClientSection() {
                         to='/blog/tags/linux'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
-                        <Linux color='#ffffff' size={48} />
+                        <SiLinux color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Linux</div>
                     </Link>
                     <Link
                         to='/blog/tags/python'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
-                        <Python color='#ffffff' size={48} />
+                        <SiPython color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Python</div>
                     </Link>
                     <Link
                         to='/blog/tags/devops'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
-                        <Googlecolab color='#ffffff' size={48} />
+                        <SiGooglecolab color='#ffffff' size={48} />
                         <div className='margin-top--sm'>DevOps</div>
                     </Link>
                     <Link
                         to='/blog/tags/kubernetes'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
-                        <Kubernetes color='#ffffff' size={48} />
+                        <SiKubernetes color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Kuberneters</div>
                     </Link>
                     <Link
                         to='/blog/tags/docker'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
-                        <Docker color='#ffffff' size={48} />
+                        <SiDocker color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Docker</div>
                     </Link>
                     <Link
                         to='/blog/tags/homelab'
                         className={clsx('col', 'fill--white', styles['client-icon'], 'margin-top--md')}
                     >
-                        <Googlehome color='#ffffff' size={48} />
+                        <SiGooglehome color='#ffffff' size={48} />
                         <div className='margin-top--sm'>Homelab</div>
                     </Link>
                     <Link

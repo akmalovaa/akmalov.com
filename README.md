@@ -1,35 +1,43 @@
-<h2 align="center">
-Личный блог для записей
-</h2>
+## Личный блог для заметок
 
-<pre align="center">
- Build with 🦖<a href="https://docusaurus.io/">Docusaurus</a>
-</pre>
+[Akmalov.com](https://akmalov.com/)
 
-<pre align="center">
-    <a href="https://akmalov.com">🖥 Online Preview</a>
-</pre>
+Статичный сайт, сделан на [Docusaurus](https://docusaurus.io/)
 
-## Local Development
 
-Git clone this project into local
+### Концепция сайта
+
+- Скорость (загрузка страниц не более 1 сек)
+- Надежность (минимальные требования к серверу, легко устанавливать и переносить)
+- Минимализм (без лишних скриптов, рекламы и т.п.)
+- Отсутствие базы данных (упростит хранение и обслуживание)
+- Редактор Markdown (Записи в формате '.md', '.mdx')
+- Адаптивная верстка (автоматическая подстройка под мобильные устройства)
+- Без погружения в web-разработку (html, css и js)
+- Автоматическое заполнение минимальных SEO полей
+
+## Для редактирования
+
+Основные команды
 
 ```shell
 git clone https://github.com/akmalovaa/akmalov.com.git
 cd akmalov.com
 ```
 
-then update
+Установка зависимостей
 
 ```shell
-npm update --force
+yarn install
 ```
 
-local development
+Локальный запуск
 
 ```shell
-npm run start
+yarn run start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+```shell
+npx docusaurus -V
+```
 
