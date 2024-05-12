@@ -28,3 +28,13 @@ Use the power of React to create interactive blog posts.
 <button onClick={() => alert('button clicked!')}>Click me!</button>
 
 :::
+
+:::warning Disclaimer
+Опасное сообщение
+:::
+
+:::tip Совет
+Полезный совет заметка
+:::
+
+[![click image](./logo.png)](./logo.png)

@@ -17,10 +17,23 @@ cat access.log | gzip -c -9 > /home/access.log-20220815.gz
 cat access.log | pv -s $(ls -la /var/log/nginx/access.log | awk '{print $5}') | gzip -c -9 > /home/access.log-20220815.gz
 ```
 
+Копирование c PV
+```bash
+pv file.zip | cat > /mnt/storage/file.zip
+```
+
+
 ## Check port
 
 ```bash
 nc -zv <host> <port>
+```
+
+## Curl
+
+### curl response time
+```bash
+curl -o /dev/null -s -w 'Total: %{time_total}s\n' https://test.com
 ```
 
 
