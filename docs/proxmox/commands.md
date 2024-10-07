@@ -3,6 +3,13 @@ sidebar_position: 2
 title: Proxmox commands
 ---
 
+
+## Proxmox
+
+helper-script - https://helper-scripts.com/
+
+Proxmox for windows https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers
+
 ## Proxmox Directory 
 ### Конфиги LXC 
 ```
@@ -89,3 +96,23 @@ UUID=9d022d03-a7c1-40a5-92f0-cb6245e93b60 /mnt/nextcloud ext4 defaults 0 0
 mount -a
 lsblk
 ```
+
+
+### Proxmox удаление ноды
+
+Удалить ноду в консоли
+```shell
+pvecm nodes
+pvecm delnode {name}
+```
+
+Удалить ключ
+```shell
+nano /etc/pve/priv/authorized_keys
+```
+
+Убрать директорию
+```shell
+mv /etc/pve/nodes/{name} /root/.
+```
+

@@ -4,8 +4,8 @@ title: Mikrotik CHR cloud hosted router
 description: Mikrotik CHR Cloud Hosted Router install timeweb VPS
 image: ./logo.png
 tags: [homelab, networks]
-keywords: [mikrotik, chr, cloud, container, docker, proxy, routeros]
-date: 2024-04-15
+keywords: [mikrotik, chr, cloud, timeweb, vps, routeros, routing]
+date: 2024-05-12
 ---
 
 Установка Mikrotik Cloud Hosted Router на облачный сервер и для чего я его использую
