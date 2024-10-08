@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkakmalov_com=self.webpackChunkakmalov_com||[]).push([[2997],{4035:o=>{o.exports=JSON.parse('{"title":"Cloud","description":"Cloud commands docs blog","slug":"/category/cloud","permalink":"/docs/category/cloud","navigation":{"previous":{"title":"NFS","permalink":"/docs/proxmox/nfs"},"next":{"title":"TimeWeb","permalink":"/docs/cloud/timeweb"}}}')}}]);

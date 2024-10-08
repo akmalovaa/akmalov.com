@@ -4,7 +4,7 @@
         <title>Artur Akmalov Blog</title>
         <link>https://akmalov.com/blog</link>
         <description>Artur Akmalov Blog</description>
-        <lastBuildDate>Mon, 15 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
@@ -13,7 +13,7 @@
             <title><![CDATA[Mikrotik CHR cloud hosted router]]></title>
             <link>https://akmalov.com/blog/mikrotik-chr</link>
             <guid>https://akmalov.com/blog/mikrotik-chr</guid>
-            <pubDate>Mon, 15 Apr 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 12 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Mikrotik CHR Cloud Hosted Router install timeweb VPS]]></description>
             <content:encoded><![CDATA[<p>Установка Mikrotik Cloud Hosted Router на облачный сервер и для чего я его использую</p>
 <p><a href="https://akmalov.com/blog/mikrotik-chr"><img decoding="async" loading="lazy" alt="mikrotik chr" src="https://akmalov.com/assets/images/logo-bca9c52c8617b3e673896b5bec7fcc75.png" width="1500" height="500" class="img_ev3q"></a></p>
