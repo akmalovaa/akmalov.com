@@ -17,8 +17,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.5.2",
-    "@docusaurus/preset-classic": "^3.5.2",
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0",
     "@giscus/react": "^3.0.0",
     "@icons-pack/react-simple-icons": "^9.4.1",
     "@mdi/js": "^7.2.96",
@@ -38,8 +38,10 @@
     "url-loader": "4.1.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.5.2",
-    "@docusaurus/tsconfig": "^3.5.2",
+    "@docusaurus/module-type-aliases": "^3.7.0",
+    "@docusaurus/tsconfig": "^3.7.0",
+    "@eslint/config-array": "^0.19.2",
+    "@eslint/object-schema": "^2.1.6",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "@types/react-helmet": "^6.1.11",

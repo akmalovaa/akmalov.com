@@ -4,18 +4,28 @@ sidebar_position: 2
 
 # Windows
 
-Список набор программ
+Иногда после переустановки системы нужно быстро скачать с офф сайта необходимые программы
 
-- [VSCode](https://code.visualstudio.com/)
-- [Obsidian](https://obsidian.md/)
-- [Yandex.Disk](https://disk.yandex.ru/client/disk)
-- [WireGuard](https://www.wireguard.com/install/)
-- [Deluge](https://dev.deluge-torrent.org/wiki/Download)
-- [Telegram](https://desktop.telegram.org/)
+Набор программ
 - [Google Chrome](https://www.google.com/chrome/)
-- [OpenLens](https://github.com/MuhammedKalkan/OpenLens)
+- [Telegram](https://desktop.telegram.org/)
+- [Obsidian](https://obsidian.md/)
+- [netbird.io](https://netbird.io/)
+- [Deluge](https://dev.deluge-torrent.org/wiki/Download)
+
+Разработка:
+- [VSCode](https://code.visualstudio.com/)
+- [MobaXterm](https://mobaxterm.mobatek.net/)
+- [Python](https://www.python.org/)
+- [python uv](https://docs.astral.sh/uv/getting-started/installation/)
+- [git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/en/download)
 
 
-При частом переключении между Mac + Windows часто возникается путаница с сочетанями клавиш
-[PowerToys](https://github.com/microsoft/PowerToys) показался самым простым для настройки и перезначения клавиш
+Системные:
+- [FreeFileSync](https://freefilesync.org/)
+- [TreeSize](https://www.jam-software.com/treesize_free)
+- [PowerToys](https://github.com/microsoft/PowerToys) настройка сочетания клавиш как на mac
+
+
 

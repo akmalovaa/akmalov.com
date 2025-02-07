@@ -10,12 +10,7 @@ sidebar_position: 4
 Python download and install [Python.org](https://www.python.org/downloads/)
 
 
-Poetry install
-```
-curl -sSL https://install.python-poetry.org | python -
-```
-
-pip install
-```
-pip install black mypy
+uv install
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```

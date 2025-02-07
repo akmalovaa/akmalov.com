@@ -1,8 +1,8 @@
 {
-  "label": "Cloud",
+  "label": "Homelab",
   "position": 8,
   "link": {
     "type": "generated-index",
-    "description": "Cloud commands docs blog"
+    "description": "Homelab projects"
   }
 }
