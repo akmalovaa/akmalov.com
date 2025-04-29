@@ -3,7 +3,14 @@ sidebar_position: 2
 title: Docker commands
 ---
 
-Тут частые команды
+Частые команды
+
+Fast install docker
+```shell
+apt update && apt upgrade -y && apt install curl
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
 
 Docker run exec or have entry point use: --entry-point=/bin/bash
 ```
