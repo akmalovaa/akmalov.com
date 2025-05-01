@@ -28,13 +28,13 @@ cd akmalov.com
 Установка зависимостей
 
 ```shell
-yarn install
+npm install
 ```
 
 Локальный запуск
 
 ```shell
-yarn run start
+npm run start
 ```
 
 ```shell

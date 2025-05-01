@@ -21,7 +21,7 @@ docker run --rm -it image-name sh
 
 
 ```
-docker build . -t myimage --build-arg ARTIFACTORY_USER=$ARTIFACTORY_USER --build-arg ARTIFACTORY_PASSWORD=$ARTIFACTORY_PASSWORD
+docker build . -t myimage --build-arg USER=$USER --build-arg PASSWORD=$PASSWORD
 ```
 
 
@@ -73,9 +73,11 @@ docker push registry.gitlab.example.com/test/nginx:1.23.1
 
 Запуск тупой команды чтоб контейнер не падал, иногда бывает нужно
 
-version: "3.7"
+```yaml
 services:
   chatops:
     image: registry.gitlab.example.com/test/myubuntu-image:v.0.1
     command: tail -F anything
+```
+
 
