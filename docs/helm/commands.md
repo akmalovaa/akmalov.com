@@ -13,7 +13,7 @@ helm repo list
 
 Обновить репы
 ```shell
-helm repo list
+helm repo update
 ```
 
 Вручную показывает локальные версии доступные для выбранного репозитория (~/.cache/helm/repository)
