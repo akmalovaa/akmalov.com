@@ -144,7 +144,7 @@ brew install --cask freelens
 - [Clop](https://formulae.brew.sh/cask/clop#default) - оптимизация изображений 
 - [Dropover](https://apps.apple.com/us/app/dropover-easier-drag-drop/id1355679052?mt=12) - упростить перетаскивание
 - [Hand mirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12) - удобная проверка веб-камеры
-- [balena](https://etcher.balena.io/#download-etcher) - Запись установочных(загрузочных) флеш
+- [balena](https://formulae.brew.sh/cask/balenaetcher#default) - Запись установочных(загрузочных) флеш
 - [Reminders MenuBar](https://formulae.brew.sh/cask/reminders-menubar#default) - напоминания в трее
 - [DeskPad](https://formulae.brew.sh/cask/deskpad#default) - виртуальный монитор (рабочий стол для шаринга)
 - [shottr](https://formulae.brew.sh/cask/shottr#default) - более функциональные скриншоты
