@@ -5,7 +5,7 @@ description: zabbix url to open winbox, ssh, rdp, vnc
 image: ./logo.png
 tags: [homelab, networks]
 keywords: [mikrotik, zabbix, winbox, ssh, vnc, rdp, map, link, putty]
-date: 2024-10-08
+date: 2022-10-08
 ---
 
 Zabbix maps быстрое подключение к хостам по winbox, ssh, rdp, vnc
