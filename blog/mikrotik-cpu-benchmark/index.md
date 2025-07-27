@@ -132,7 +132,7 @@ sysbench: CPU speed: 2483.32 events per second
 
 | Device | CPU | Frequency | Events/sec | Relative performance |
 |---|---|---|---|---|
-| **CHR VPS (KVM)** | x86_64 | - | **2491.79** | 100% |
+| **CHR VPS (KVM)** | x86_64 | - | **2492** | 100% |
 | **RB5009UG+S+IN** | 88F7040 | 350-1400 MHz | **1276** | 51% |
 | **HAP AX3** | IPQ-6010 | 864-1800 MHz | **841** | 34% |
 
@@ -149,7 +149,7 @@ HAP AX3 (IPQ-6010)  ██████▾                 841 events/sec
 |---|---|---|---|---|
 | **RB5009UG+S+IN** | 88F7040 | 350-1400 MHz | **5093** | 100% |
 | **HAP AX3** | IPQ-6010 | 864-1800 MHz | **3348** | 66% |
-| **CHR VPS (KVM)** | x86_64 | - | **2483.32** | 49% |
+| **CHR VPS (KVM)** | x86_64 | - | **2483** | 49% |
 
 
 ```
