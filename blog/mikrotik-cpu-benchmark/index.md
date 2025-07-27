@@ -145,11 +145,11 @@ HAP AX3 (IPQ-6010)  ██████▾                 841 events/sec
 
 ## Сравнение производительности CPU (многоядерный режим, 4 потока)
 
-| Device | CPU | Threads | Events/sec | Relative performance |
+| Device | CPU | Frequency | Events/sec | Relative performance |
 |---|---|---|---|---|
-| **RB5009UG+S+IN** | 88F7040 | 4 | **5093** | 100% |
-| **HAP AX3** | IPQ-6010 | 4 | **3348** | 66% |
-| **CHR VPS (KVM)** | x86_64 | 4 | **2483.32** | 49% |
+| **RB5009UG+S+IN** | 88F7040 | 350-1400 MHz | **5093** | 100% |
+| **HAP AX3** | IPQ-6010 | 864-1800 MHz | **3348** | 66% |
+| **CHR VPS (KVM)** | x86_64 | - | **2483.32** | 49% |
 
 
 ```
