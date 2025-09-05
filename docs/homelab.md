@@ -51,7 +51,6 @@ sidebar_position: 20
 - [**Uptime Kuma**](https://github.com/louislam/uptime-kuma) - Мониторинг доступности
 - [**CrowdSec**](https://github.com/crowdsecurity/crowdsec) - Блокировка подозрительных IP адресов
 - [**Speedtest-rust**](https://github.com/librespeed/speedtest-rust) - Тестирование пропускной способности канала
-- [**Keycloak**](https://github.com/keycloak/keycloak) - Сервер аутентификации и авторизации
 - [**PostgreSQL**](https://www.postgresql.org/) - База данных
 - [**Minio S3**](https://github.com/minio/minio) - Хранилище объектов
 - [**Duplicati**](https://www.duplicati.com/) - Резервное копирование
