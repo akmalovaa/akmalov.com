@@ -1,8 +1,0 @@
-{
-  "label": "Helm",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "description": "Helm commands docs blog"
-  }
-}

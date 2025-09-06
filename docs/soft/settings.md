@@ -10,21 +10,11 @@ sidebar_position: 10
 
 Remote SSH - Microsoft
 
-```
+```config
 Host <IP>
   HostName <IP>
   User <USER>
   IdentityFile ~/.ssh/id_rsa
 ```
+
 maybe rename id_rsa.pub to authorized_keys
-
-## OpenLens
-
-OpenLens extensions (exec and logs)
-
-Для просмотра логов и подключения к контейнерам нужно добавить расширение
-
-```
-@alebcay/openlens-node-pod-menu
-```
-

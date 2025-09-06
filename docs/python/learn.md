@@ -1,28 +1,24 @@
 ---
 sidebar_position: 2
+title: Learning
 ---
 
 # Обучение
 
-Полезные сайты и материалы для изучения 
+Полезные сайты и материалы для изучения
 
-Особых советов по учебе не будет, кому что больше заходит, то лучше и выбирать:
-- тексты и статьи
-- видео уроки, доклады
-- оналайн тренажеры 
-- специальные
+- [docs.python.org](https://docs.python.org/3/contents.html) - официальная документация по Python
+- [Codewars](https://www.codewars.com/) - множество различных задач попрактиковаться
+- [Python Type Challenges](https://python-type-challenges.zeabur.app/) - сайт-тренажер для изучения типизации. [Github](https://github.com/laike9m/Python-Type-Challenges)
 
+### Youtube
 
-## [docs.python.org](https://docs.python.org/3/contents.html)
-Офицальная документация Python
+- in progress...
 
-## [Codewars](https://www.codewars.com/)
-Множество различных задач попрактиковаться
+### Telegram каналы
 
+- in progress...
 
-## Тренажер по тайпингу 
+### Книги
 
-**Python Type Challenges** - сайт-тренажер для изучения типизации. 
-
-[Ссылка на сайт](https://python-type-challenges.zeabur.app/) \
-[Github](https://github.com/laike9m/Python-Type-Challenges)
+- in progress...

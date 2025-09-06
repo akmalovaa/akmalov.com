@@ -1,17 +1,11 @@
 ---
-sidebar_position: 20
+sidebar_position: 1
+title: Services
 ---
 
 # Homelab
 
-Домашняя инфрастуктура под капотом, оборудование, проекты и сервисы.
-
-### Железо
-
-- **Mikrotik**
-- **Ubiquiti**
-- **Synology**
-- Серверы с больших стоечных DELL перехожу на Mini PC Minisforum, GMK
+Интересные проекты и сервисы
 
 ### Кластеры
 
@@ -21,13 +15,11 @@ sidebar_position: 20
 ### Базовые проекты
 
 - [**Homepage**](https://github.com/gethomepage/homepage) - Стартовая страница (дашборд) с часто используемыми ссылками
-- [**Linkding**](https://github.com/sissbruecker/linkding) - Управление закладками
-- [**Karakeep**](https://github.com/karakeep-app/karakeep) - Управление закладками нужно сравнить Linkding и Karakeep пока изучаю
 - [**Kaneo**](https://github.com/usekaneo/kaneo) - Канбан доска для задач
 - [**Jellyfin**](https://github.com/jellyfin/jellyfin) - Медиа-сервер
 - [**Vaultwarden**](https://github.com/dani-garcia/vaultwarden) - Менеджер паролей
 - [**Immich**](https://github.com/immich-app/immich) - Аналог гугл фото, хранение и обмен фотографиями
-- [**Paperless-ng**](https://github.com/paperless-ngx/paperless-ngx) - Система управления документами
+- [**Paperless-ngx**](https://github.com/paperless-ngx/paperless-ngx) - Система управления документами
 - [**Home Assistant**](https://github.com/home-assistant) - Автоматизация дома
 - [**Ollama**](https://github.com/ollama/ollama) - Локальный LLM
 - [**Open Web UI**](https://github.com/open-webui/open-webui) - Веб интерфейс для LLM
@@ -36,6 +28,7 @@ sidebar_position: 20
 - [**Mailcow**](https://github.com/mailcow/mailcow-dockerized) - Почтовый сервер
 - [**Stirling-PDF**](https://github.com/Stirling-Tools/Stirling-PDF) - Работа с PDF файлами
 - [**Reveal.js**](https://github.com/hakimel/reveal.js) - Создание HTML презентаций
+- [**Linkding**](https://github.com/sissbruecker/linkding) или [**Karakeep**](https://github.com/karakeep-app/karakeep)  - Управление закладками нужно сравнить пока изучаю
 
 ### Инфраструктура
 
@@ -66,7 +59,6 @@ sidebar_position: 20
 - [**Valkey**](https://github.com/valkey-io/valkey) - база данных аналог Redis
 - [**MeiliSearch**](https://github.com/meilisearch/meilisearch) - Поисковый движок
 - [**IT-tools**](https://github.com/CorentinTh/it-tools) - Набор инструментов помогает в разработке
-- [**Code Server**](https://github.com/coder/code-server) - VSCode в браузере
 - [**Nocodb**](https://github.com/nocodb/nocodb) - Работа с базами в веб интерфейсе + API
 - [**Penpot**](https://github.com/penpot/penpot) - OpenSource аналог Figma
 - [**Hoppscotch**](https://github.com/hoppscotch/hoppscotch) - Аналог Postman для тестирования API
