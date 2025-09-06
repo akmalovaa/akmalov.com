@@ -71,7 +71,7 @@
             <pubDate>Sun, 27 Jul 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Сравнение производительности CPU на устройствах MikroTik]]></description>
             <content:encoded><![CDATA[<p>CPU benchmark ipq-6010 vs 88f7040 сравнение производительности устройств MikroTik RB5009 vs hap ax3</p>
-<p><a href="https://akmalov.com/blog/mikrotik-cpu-benchmark"><img decoding="async" loading="lazy" alt="mikrotik chr" src="https://akmalov.com/assets/images/logo-e4208a9f1f19736a2bf5aa854103d3b8.png" width="1201" height="470" class="img_ev3q"></a></p>
+<p><a href="https://akmalov.com/blog/mikrotik-cpu-benchmark"><img decoding="async" loading="lazy" alt="mikrotik chr" src="https://akmalov.com/assets/images/logo-28d0e033a0fb95039f40f7bbd0f93d3f.png" width="1500" height="500" class="img_ev3q"></a></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="введение">Введение<a href="https://akmalov.com/blog/mikrotik-cpu-benchmark#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" class="hash-link" aria-label="Прямая ссылка на Введение" title="Прямая ссылка на Введение">​</a></h2>
 <p>Возможность запускать контейнеры прямо на маршрутизаторах MikroTik открывает большие возможности, теперь ограничения только в фантазии и ресурсах железки</p>
 <p>Если решите поиграть дома с контейнерами, то советую выбирать устройства:</p>
