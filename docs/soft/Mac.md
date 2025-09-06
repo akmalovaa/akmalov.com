@@ -7,8 +7,8 @@ sidebar_position: 4
 ## Первоначальная настройка
 
 ### Настройки мышки
-Первым делом убираю естественный скроллинг т.к. использую мышку (Logitech MX Master 3S)
 
+Первым делом убираю естественный скроллинг т.к. использую мышку (Logitech MX Master 3S)
 
 ### Сочетания клавиш
 
@@ -20,6 +20,7 @@ sidebar_position: 4
 ### Finder
 
 **Настройки:**
+
 - Окно по умолчанию на папку пользователя
 - Настроить элементы бокового меню
 - Убрать тэги
@@ -27,6 +28,7 @@ sidebar_position: 4
 - Поиск - Искать в текущей папке
 
 **Вид:**
+
 - Показать строку пути
 - Показать строку состояния
 
@@ -36,26 +38,24 @@ sidebar_position: 4
 Урбрать показывать недавнее
 Автоматически скрывать dock
 
-
 Настроить размер
 Убрать Показывать рабочий стол при нажатии на обоях
 Двойное нажатие убирать в Dock
 
 Активные углы + Shift
+
 - Misson controll
 - Lauchpad (Правый верхний угол)
 - Desktop (правый нижний угол)
 
 Lauchpad - Внутри все красиво раскидать по папкам
 
-
-
 Пункт управления (Системные настройки)
 Настроить иконки под свои предпочтения убрать лишнее
 
 ### Установка NAS
 
-Finder - cmd+K (Добавить URL) 
+Finder - cmd+K (Добавить URL)
 Добавлить подключение в автозапуск - Системные Настройки -> Объекты входа и расширения
 
 ### Soft
@@ -73,26 +73,27 @@ brew install --cask applite
 ```
 
 Obsidian
+
 ```shell
 brew install --cask obsidian
 ```
 
 Telegram
+
 ```
 brew install --cask telegram-desktop
 ```
 
-
 ### App Store
 
-- Pixea - просмотр картинок 
+- Pixea - просмотр картинок
 - Windows APP - RDP Client
 - Disk Speed - Тест скорости диска
 
-
 ### Development
 
-Терминал использую Tabby 
+Терминал использую Tabby
+
 ```shell
 brew install --cask tabby
 
@@ -106,26 +107,34 @@ VSCode
 brew install --cask visual-studio-code
 ```
 
-
 Python UV Astral
+
 ```shell
 brew install uv
 ```
 
 Orbstack аналог Docker + Docker Desktop
 Лучшее приложение для работы с контейнерами на MacOS
+
 ```shell
 brew install --cask orbstack
 ```
 
 k8s UI
-```
+
+```shell
 brew install --cask freelens
+```
+
+http трафик генератор
+
+```shell
+brew install oha
 ```
 
 ### Photo Video редакторы
 
-- [GIMP](https://formulae.brew.sh/cask/gimp#default)
+- [Krita](https://formulae.brew.sh/cask/krita#default)
 - [OBS](https://formulae.brew.sh/cask/obs#default)
 - [Recut](https://formulae.brew.sh/cask/recut#default)
 - [Davinchi](https://apps.apple.com/ru/app/davinci-resolve/id571213070?mt=12)
@@ -141,7 +150,7 @@ brew install --cask freelens
 - [Appcleaner](https://formulae.brew.sh/cask/appcleaner) - удаление приложений
 - [Maccy](https://formulae.brew.sh/cask/maccy#default) - расширенный буфер копирования
 - [PDF gear](https://www.pdfgear.com/) - работа с pdf
-- [Clop](https://formulae.brew.sh/cask/clop#default) - оптимизация изображений 
+- [Clop](https://formulae.brew.sh/cask/clop#default) - оптимизация изображений
 - [Dropover](https://apps.apple.com/us/app/dropover-easier-drag-drop/id1355679052?mt=12) - упростить перетаскивание
 - [Hand mirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12) - удобная проверка веб-камеры
 - [balena](https://formulae.brew.sh/cask/balenaetcher#default) - Запись установочных(загрузочных) флеш
@@ -149,6 +158,3 @@ brew install --cask freelens
 - [DeskPad](https://formulae.brew.sh/cask/deskpad#default) - виртуальный монитор (рабочий стол для шаринга)
 - [shottr](https://formulae.brew.sh/cask/shottr#default) - более функциональные скриншоты
 - Amphetamine - настройка событий для предотвращение перехода Mac в спящий режим
-
-
-
