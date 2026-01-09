@@ -4,7 +4,6 @@
 
 Статичный сайт, сделан на [Docusaurus](https://docusaurus.io/)
 
-
 ### Концепция сайта
 
 - Скорость (загрузка страниц не более 1 сек)
@@ -40,4 +39,3 @@ npm run start
 ```shell
 npx docusaurus -V
 ```
-
