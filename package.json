@@ -72,5 +72,9 @@
   },
   "alias": {
     "react/jsx-runtime": "react/jsx-runtime.js"
+  },
+  "overrides": {
+    "serialize-javascript": "^7.0.4",
+    "minimatch": "^10.2.4"
   }
 }
