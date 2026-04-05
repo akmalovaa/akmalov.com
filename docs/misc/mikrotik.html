@@ -14,9 +14,9 @@
 
 
 
-<link rel="search" type="application/opensearchdescription+xml" title="Artur Akmalov" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.7b3aa00b.css">
+<link rel="search" type="application/opensearchdescription+xml" title="Artur Akmalov" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.800b94cc.css">
 <script src="/assets/js/runtime~main.ac9d261e.js" defer="defer"></script>
-<script src="/assets/js/main.4b0deb97.js" defer="defer"></script>
+<script src="/assets/js/main.29548537.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -27,7 +27,7 @@
 <p>Всякие мелочи</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="mikrotik-узнать-внешний-ip-адрес">Mikrotik узнать внешний IP адрес<a href="#mikrotik-узнать-внешний-ip-адрес" class="hash-link" aria-label="Прямая ссылка на Mikrotik узнать внешний IP адрес" title="Прямая ссылка на Mikrotik узнать внешний IP адрес" translate="no">​</a></h2>
 <p>Иногда возникает необходимость на удаленном устройстве быстро посмотреть внешний IP адрес.</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">/tool fetch url=&quot;https://wtfismyip.com/text&quot; keep-result=yes; delay 1s; :put [file get text contents]</span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">/tool fetch url=&quot;https://wtfismyip.com/text&quot; keep-result=yes; delay 1s; :put [file get text contents]</span><br></span></code></pre></div></div>
 <p>Одна строка, включает 3 команды.</p>
 <ul>
 <li class="">GET запрос и сохранение результата</li>
@@ -38,7 +38,7 @@
 <p>Нужен ТОКЕН бота (создается через @Botfather по инструкции)</p>
 <p>Token выглядит примерно так: <code>1064657353:AAFH1MioTXgrmHGZмAr-XcGE18BShD5ud0Y</code></p>
 <p>Дальше нужно получить chatID</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">https://api.telegram.org/bot*API_token*/getUpdates</span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">https://api.telegram.org/bot*API_token*/getUpdates</span><br></span></code></pre></div></div>
 <p>Открыть в браузере, где необходимо найти строку <strong>chat id</strong>:</p>
 <p>Например:</p>
 <ul>
@@ -47,7 +47,7 @@
 </ul>
 <p><strong>Отправка сообщения через микротик тест бота</strong></p>
 <p>Команда для проверки работоспособности:</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">/tool fetch url=&quot;https://api.telegram.org/botAPI_TOKEN/sendMessage\?chat_id=CHAT_ID&amp;text=test&quot;</span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">/tool fetch url=&quot;https://api.telegram.org/botAPI_TOKEN/sendMessage\?chat_id=CHAT_ID&amp;text=test&quot;</span><br></span></code></pre></div></div>
 <p>(Подставить свои API_TOKEN и CHAT_ID)</p>
 <blockquote>
 <p>failure: closing connection: <code>400 Bad Request</code></p>
@@ -63,9 +63,9 @@
 <p><strong>Описание</strong></p>
 <p>Скрипт каждый день проверяет какое сегодня число и если сегодня «первое» число то выполняет команду</p>
 <p>Узнать какой сегодня день (создает глобальную переменную с актуальной датой):</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">:global day [:pick [/system clock get date] 4 6]</span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">:global day [:pick [/system clock get date] 4 6]</span><br></span></code></pre></div></div>
 <p>Условие «если сегодня первое число» то сбросить все счётчики в /queue simple</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">:if ($day=&quot;01&quot;) do={/queue simple reset-counters-all}</span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">:if ($day=&quot;01&quot;) do={/queue simple reset-counters-all}</span><br></span></code></pre></div></div>
 <p>Добавляю этот скрипт в расписание <strong>system -&gt; schedule</strong> и запускаю в 00:00:01 с интервалом в один день.</p>
 <p>Когда вариант с <strong>schedule</strong> с интервалом в 30d меня не устраивает, и нужно именно каждый новый месяц</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/akmalovaa/akmalov.com/tree/main/docs/misc/mikrotik.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Отредактировать эту страницу</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Страница документа"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/misc/wireguard"><div class="pagination-nav__sublabel">Предыдущая страница</div><div class="pagination-nav__label">WireGuard</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/misc/service_level"><div class="pagination-nav__sublabel">Следующая страница</div><div class="pagination-nav__label">Service Level</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#tips-and-tricks" class="table-of-contents__link toc-highlight">Tips and Tricks</a></li><li><a href="#mikrotik-узнать-внешний-ip-адрес" class="table-of-contents__link toc-highlight">Mikrotik узнать внешний IP адрес</a></li><li><a href="#mikrotik-отправить-сообщение-telegram" class="table-of-contents__link toc-highlight">Mikrotik отправить сообщение Telegram</a></li><li><a href="#выполнение-скрипта-команды-ежемесячно-на-router-os" class="table-of-contents__link toc-highlight">Выполнение скрипта (команды) ежемесячно на Router OS</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Akmalov Artur</div></div></div></footer></div>
 </body>

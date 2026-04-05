@@ -14,9 +14,9 @@
 
 
 
-<link rel="search" type="application/opensearchdescription+xml" title="Artur Akmalov" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.7b3aa00b.css">
+<link rel="search" type="application/opensearchdescription+xml" title="Artur Akmalov" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.800b94cc.css">
 <script src="/assets/js/runtime~main.ac9d261e.js" defer="defer"></script>
-<script src="/assets/js/main.4b0deb97.js" defer="defer"></script>
+<script src="/assets/js/main.29548537.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -60,7 +60,7 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="frontail"><a href="https://github.com/mthenw/frontail" target="_blank" rel="noopener noreferrer" class="">frontail</a><a href="#frontail" class="hash-link" aria-label="Прямая ссылка на frontail" title="Прямая ссылка на frontail" translate="no">​</a></h3>
 <p>Для удобного вывода логов по web интерфейсу с полем поиска</p>
 <p>Можно не устанавливать и запускать с помощью docker например:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token function" style="color:rgb(130, 170, 255)">docker</span><span class="token plain"> run </span><span class="token parameter variable" style="color:rgb(191, 199, 213)">-d</span><span class="token plain"> </span><span class="token parameter variable" style="color:rgb(191, 199, 213)">-p</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">80</span><span class="token plain">:9001 </span><span class="token parameter variable" style="color:rgb(191, 199, 213)">-v</span><span class="token plain"> /var/log:/log mthenw/frontail /log/syslog</span><br></span></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token function" style="color:rgb(80, 250, 123)">docker</span><span class="token plain"> run </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-d</span><span class="token plain"> </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-p</span><span class="token plain"> </span><span class="token number">80</span><span class="token plain">:9001 </span><span class="token parameter variable" style="color:rgb(189, 147, 249);font-style:italic">-v</span><span class="token plain"> /var/log:/log mthenw/frontail /log/syslog</span><br></span></code></pre></div></div>
 <p>по IP адресу хоста можно увидеть логи в таком формате:
 <a href="/assets/files/frontail-5dea8246ac1d849e1c7029575cca428e.png" target="_blank" class=""><img decoding="async" loading="lazy" alt="frontail" src="/assets/images/frontail-5dea8246ac1d849e1c7029575cca428e.png" width="922" height="432" class="img_ev3q"></a></p>
 <p>Если есть единая точка сбора логов типо ELK, Loki, OpenSearch, то <code>frontail</code> врядли пригодиться, но выглядит интересно.</p>
