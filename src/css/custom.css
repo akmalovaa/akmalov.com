@@ -55,24 +55,93 @@
   width: 32px;
 }
 
-/* Navbar links */
-.navbar__link {
-  font-weight: 500;
-  font-size: 1.20rem;
-  color: rgba(255, 255, 255, 0.6);
-  transition: color 0.2s ease, background-color 0.2s ease;
-  padding: 0.4rem 0.8rem;
+/* Navbar links — desktop only */
+@media (min-width: 997px) {
+  .navbar__link {
+    font-weight: 500;
+    font-size: 1.20rem;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 0.2s ease, background-color 0.2s ease;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+  }
+
+  .navbar__link:hover {
+    color: #22d3ee;
+    background-color: rgba(34, 211, 238, 0.06);
+  }
+
+  .navbar__link--active {
+    color: #22d3ee;
+    background-color: rgba(34, 211, 238, 0.08);
+  }
+}
+
+/* Navbar sidebar — mobile */
+html .navbar-sidebar {
+  z-index: 300 !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  width: 100vw !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow-y: auto !important;
+}
+
+html .navbar-sidebar__brand {
+  flex: 0 0 auto !important;
+}
+
+html .navbar-sidebar__items {
+  flex: 0 0 auto !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding-top: 0.5rem !important;
+}
+
+html .navbar-sidebar__item {
+  height: auto !important;
+  overflow-y: auto !important;
+}
+
+html .navbar-sidebar__backdrop {
+  height: 100vh !important;
+  width: 100vw !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-sidebar .menu__link {
+  font-size: 1.25rem !important;
+  padding: 0.75rem 1.2rem !important;
+  color: rgba(255, 255, 255, 0.8) !important;
   border-radius: 8px;
 }
 
-.navbar__link:hover {
-  color: #22d3ee;
+.navbar-sidebar .menu__link:hover {
+  color: #22d3ee !important;
   background-color: rgba(34, 211, 238, 0.06);
 }
 
-.navbar__link--active {
-  color: #22d3ee;
-  background-color: rgba(34, 211, 238, 0.08);
+/* Sidebar panels — on docs pages show secondary panel directly */
+html .navbar-sidebar__items {
+  display: flex !important;
+  transition: transform 0.2s ease !important;
+}
+
+html .navbar-sidebar__items--show-secondary {
+  transform: translate3d(-100%, 0, 0) !important;
+}
+
+html .navbar-sidebar__item {
+  width: 100% !important;
+  min-width: 100% !important;
+  flex-shrink: 0 !important;
+}
+
+html .navbar-sidebar__back {
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* GitHub header link */
@@ -125,6 +194,20 @@ html[data-theme="dark"] .DocSearch-Hit[aria-selected="true"] a {
 
 .markdown li::marker {
   color: rgba(255, 255, 255, 0.5);
+}
+
+/* Breadcrumb home icon alignment */
+svg[class*='breadcrumbHomeIcon'] {
+  top: 8px !important;
+  vertical-align: top !important;
+}
+
+/* Edit this page link */
+.theme-edit-this-page {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
 }
 
 /* Blog post cards */

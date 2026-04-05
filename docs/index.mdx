@@ -1,0 +1,89 @@
+---
+sidebar_position: 1
+title: База знаний
+---
+
+import Link from '@docusaurus/Link';
+import {SiKubernetes, SiPython, SiProxmox, SiGooglehome} from '@icons-pack/react-simple-icons';
+import Icon from '@mdi/react';
+import {mdiRobotHappy, mdiApplicationCog, mdiDotsHorizontalCircleOutline, mdiConsole} from '@mdi/js';
+
+Рабочие заметки, команды и инструкции — организованы по категориям
+
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 mb-8">
+
+<Link to="/docs/category/ai" className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-purple-400/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline">
+  <div className="shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-purple-400/20 to-purple-400/5 flex items-center justify-center text-purple-400">
+    <Icon path={mdiRobotHappy} size="28px" />
+  </div>
+  <div>
+    <span className="block font-semibold text-base">AI</span>
+    <span className="block text-sm text-gray-500 mt-0.5">LLM, Claude Code, промпты</span>
+  </div>
+</Link>
+
+<Link to="/docs/category/soft" className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-green-400/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline">
+  <div className="shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-green-400/20 to-green-400/5 flex items-center justify-center text-green-400">
+    <Icon path={mdiApplicationCog} size="28px" />
+  </div>
+  <div>
+    <span className="block font-semibold text-base">Soft</span>
+    <span className="block text-sm text-gray-500 mt-0.5">Полезные программы и утилиты</span>
+  </div>
+</Link>
+
+<Link to="/docs/category/python" className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-blue-400/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline">
+  <div className="shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-blue-400/20 to-blue-400/5 flex items-center justify-center text-blue-400">
+    <SiPython size={24} />
+  </div>
+  <div>
+    <span className="block font-semibold text-base">Python</span>
+    <span className="block text-sm text-gray-500 mt-0.5">Обучение, библиотеки, скрипты</span>
+  </div>
+</Link>
+
+<Link to="/docs/category/kubernetes" className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-blue-500/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline">
+  <div className="shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500/20 to-blue-500/5 flex items-center justify-center text-blue-500">
+    <SiKubernetes size={24} />
+  </div>
+  <div>
+    <span className="block font-semibold text-base">Kubernetes</span>
+    <span className="block text-sm text-gray-500 mt-0.5">Команды, архитектура, заметки</span>
+  </div>
+</Link>
+
+<Link to="/docs/category/proxmox" className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-amber-400/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline">
+  <div className="shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-amber-400/20 to-amber-400/5 flex items-center justify-center text-amber-400">
+    <SiProxmox size={24} />
+  </div>
+  <div>
+    <span className="block font-semibold text-base">Proxmox</span>
+    <span className="block text-sm text-gray-500 mt-0.5">Виртуализация, команды, настройка</span>
+  </div>
+</Link>
+
+<Link to="/docs/category/homelab" className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-cyan-400/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline">
+  <div className="shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-cyan-400/20 to-cyan-400/5 flex items-center justify-center text-cyan-400">
+    <SiGooglehome size={24} />
+  </div>
+  <div>
+    <span className="block font-semibold text-base">Homelab</span>
+    <span className="block text-sm text-gray-500 mt-0.5">Железо, сервисы, self-hosted</span>
+  </div>
+</Link>
+
+<Link to="/docs/category/misc" className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-gray-400/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline">
+  <div className="shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-gray-400/20 to-gray-400/5 flex items-center justify-center text-gray-400">
+    <Icon path={mdiDotsHorizontalCircleOutline} size="28px" />
+  </div>
+  <div>
+    <span className="block font-semibold text-base">Misc</span>
+    <span className="block text-sm text-gray-500 mt-0.5">Bash, Docker, Helm, MikroTik и другое</span>
+  </div>
+</Link>
+
+</div>
+
+:::tip Подсказка
+Воспользуйтесь **поиском**, чтобы быстро найти нужную информацию
+:::
