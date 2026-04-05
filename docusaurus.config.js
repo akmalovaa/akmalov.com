@@ -117,11 +117,7 @@ const config = {
       },
     }),
   plugins: [
-    [
-      'docusaurus-plugin-sass',
-      /** @type {import('docusaurus-plugin-sass').Options} */
-      {}
-    ],
+    require('./plugins/tailwind-plugin'),
   ]
 };
 

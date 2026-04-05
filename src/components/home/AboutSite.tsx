@@ -1,34 +1,63 @@
 import React from 'react';
-import clsx from "clsx";
-import styles from './Styles.module.scss';
 
-const consept = [
-'Скорость (загрузка страниц не более 1 сек)',
-'Надежность (минимальные требования к серверу, легко устанавливать и переносить)',
-'Минимализм (без лишних скриптов, рекламы и т.п.)',
-'Отсутствие базы данных (упростит хранение и обслуживание)',
-'Редактор Markdown (Записи в формате \'.md\', \'.mdx\')',
-'Адаптивная верстка (автоматическая подстройка под мобильные устройства)',
-'Без погружения в web-разработку (html, css и js)',
-'Автоматическое заполнение минимальных SEO полей',
-]
+const concepts = [
+  {
+    icon: '⚡',
+    title: 'Скорость',
+    desc: 'Загрузка страниц менее 1 секунды',
+  },
+  {
+    icon: '🛡',
+    title: 'Надежность',
+    desc: 'Статичный сайт, минимальные требования',
+  },
+  {
+    icon: '✦',
+    title: 'Минимализм',
+    desc: 'Без лишних скриптов и рекламы',
+  },
+  {
+    icon: '📄',
+    title: 'Markdown',
+    desc: 'Записи в формате .md и .mdx',
+  },
+  {
+    icon: '🗄',
+    title: 'База данных',
+    desc: 'Не использовать, пока мало данных',
+  },
+  {
+    icon: '📱',
+    title: 'Адаптивность',
+    desc: 'Подстройка под любые устройства',
+  },
+];
 
 export default function AboutSite() {
-    return (
-        <header className={clsx('hero hero--primary')} >
-            <div className="container">
-                <h3> Концепция сайта </h3>
-                <ul className={styles.list}>
-                    {consept.map((use, index) => (
-                        <li key={index} className={styles.listItem}>
-                            {use}
-                        </li>
-                    ))}
-                </ul>
-                {/* <div class="alert alert--secondary margin-top--lg" role="alert">
-                    Цель - сделать <strong>быстрый</strong>, <strong>простой</strong> и <strong>надежный</strong> сайт для своих заметок.
-                </div> */}
+  return (
+    <section className="relative py-24 border-t border-white/5">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="text-center mb-14">
+          <h2 className="text-4xl font-bold mb-3">Концепция сайта</h2>
+          <p className="text-gray-500 text-lg">Технические принципы проекта</p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {concepts.map((item) => (
+            <div
+              key={item.title}
+              className="group p-6 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-white/[0.12] transition-all duration-300"
+            >
+              <div className="text-2xl mb-3">{item.icon}</div>
+              <h4 className="text-cyan-400 font-semibold mb-1.5 text-lg">
+                {item.title}
+              </h4>
+              <p className="text-gray-500 text-base m-0 leading-relaxed">
+                {item.desc}
+              </p>
             </div>
-        </header>
-    );
-};
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

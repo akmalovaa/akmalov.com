@@ -1,6 +1,6 @@
 {
   "label": "Kubernetes",
-  "position": 3,
+  "position": 40,
   "link": {
     "type": "generated-index",
     "description": "Kubernetes commands docs blog"

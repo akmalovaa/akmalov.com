@@ -28,6 +28,10 @@ Personal blog and documentation site (akmalov.com) built with Docusaurus 3. The 
 - `sidebars.js` — auto-generated from `docs/` folder structure
 - Deployment: Dockerfile builds static assets and serves via nginx on port 8000; also supports GitHub Pages via `npm run deploy`
 
+## Testing
+
+- Use Playwright for local visual/functional testing
+
 ## Content Conventions
 
 - Blog posts live in `blog/<slug>/index.md` with frontmatter (title, date, tags, etc.)

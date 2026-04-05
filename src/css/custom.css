@@ -1,61 +1,97 @@
+@import "tailwindcss";
+@source "..";
+@source "../../docs";
+
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Global styles. Infima (Docusaurus CSS framework) is loaded by default.
  */
 
-/* You can override the default Infima variables here. */
-/* :root {
-  --ifm-color-primary: #242526;;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-} */
-
 :root {
-  --ifm-color-primary: #efefeffd;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #22d3ee;
+  --ifm-color-primary-dark: #0cb8d4;
+  --ifm-color-primary-darker: #0aa5be;
+  --ifm-color-primary-darkest: #08879c;
+  --ifm-color-primary-light: #4ddcf1;
+  --ifm-color-primary-lighter: #67e1f3;
+  --ifm-color-primary-lightest: #93eaf7;
+  --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #efefeffd;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #22d3ee;
+  --ifm-color-primary-dark: #0cb8d4;
+  --ifm-color-primary-darker: #0aa5be;
+  --ifm-color-primary-darkest: #08879c;
+  --ifm-color-primary-light: #4ddcf1;
+  --ifm-color-primary-lighter: #67e1f3;
+  --ifm-color-primary-lightest: #93eaf7;
+  --ifm-background-color: #0f0f0f;
+  --ifm-background-surface-color: #161616;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.footer {
-  --ifm-footer-background-color: #242526;
-  --ifm-footer-color: var(--ifm-footer-link-color);
-  --ifm-footer-link-color: var(--ifm-color-secondary);
-  --ifm-footer-title-color: var(--ifm-color-white);
+/* Navbar */
+.navbar {
+  background: rgba(15, 15, 15, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: none;
+  padding: 0.6rem 1rem;
 }
 
-/* h2 {
-  font-family: "Inter", sans-serif;
+.navbar__title {
   font-weight: 700;
-  font-size: 1em;
-  font-weight: bold;
-} */
+  font-size: 1.4rem;
+  background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar__logo img {
+  height: 32px;
+  width: 32px;
+}
+
+/* Navbar links */
+.navbar__link {
+  font-weight: 500;
+  font-size: 1.20rem;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.2s ease, background-color 0.2s ease;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+}
+
+.navbar__link:hover {
+  color: #22d3ee;
+  background-color: rgba(34, 211, 238, 0.06);
+}
+
+.navbar__link--active {
+  color: #22d3ee;
+  background-color: rgba(34, 211, 238, 0.08);
+}
+
+/* GitHub header link */
+.header-github-link {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
 
 .header-github-link:hover {
-  opacity: 0.6;
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  --ifm-footer-background-color: #0a0a0a;
+  --ifm-footer-color: #888;
+  --ifm-footer-link-color: #aaa;
+  --ifm-footer-title-color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .header-github-link::before {
@@ -66,6 +102,32 @@
   background: url("/img/github.svg") 0 center / 25px 25px no-repeat;
 }
 
+/* Algolia search dark mode */
 html[data-theme="dark"] .DocSearch-Hit[aria-selected="true"] a {
   background-color: #000;
+}
+
+/* Sidebar */
+.menu {
+  background: transparent;
+}
+
+/* Restore list markers in docs/blog content */
+.markdown ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.markdown ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+}
+
+.markdown li::marker {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Blog post cards */
+.blog-post-item {
+  border-radius: 12px;
 }

@@ -1,6 +1,6 @@
 {
   "label": "Homelab",
-  "position": 30,
+  "position": 200,
   "link": {
     "type": "generated-index",
     "description": "Homelab docs blog"

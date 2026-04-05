@@ -1,6 +1,6 @@
 {
   "label": "Proxmox",
-  "position": 7,
+  "position": 80,
   "link": {
     "type": "generated-index",
     "description": "Proxmox commands docs blog"
