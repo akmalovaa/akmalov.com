@@ -33,7 +33,7 @@ export default function HomeHero() {
             <span className="inline-block ml-2 transition-transform duration-300 group-hover:translate-x-1">→</span>
           </Link>
           <Link
-            to="/docs/intro"
+            to="/docs"
             className="px-8 py-3.5 border border-white/15 hover:border-cyan-500/50 text-gray-300 hover:text-cyan-400 rounded-xl font-semibold transition-all duration-300 no-underline hover:no-underline hover:bg-cyan-500/[0.05]"
           >
             База знаний
