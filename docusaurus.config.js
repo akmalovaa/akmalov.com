@@ -44,7 +44,7 @@ const config = {
           editUrl: 'https://github.com/akmalovaa/akmalov.com/tree/main/',
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Artur Akmalov`,
             createFeedItems: async (params) => {
               const { blogPosts, defaultCreateFeedItems, ...rest } = params;
               return defaultCreateFeedItems({
@@ -108,7 +108,7 @@ const config = {
       }),
       prism: {
         additionalLanguages: ['bash', 'diff', 'json'],
-        // darkTheme: darkCodeTheme,
+        darkTheme: darkTheme,
       },
       colorMode: {
         defaultMode: 'dark',

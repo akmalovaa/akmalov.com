@@ -1,12 +1,12 @@
-FROM node:latest as builder
+FROM node:25.9.0-slim as builder
 
-COPY . /src
 WORKDIR /src
-
-RUN npm install
+COPY package.json package-lock.json ./
+RUN npm ci
+COPY . .
 RUN npm run build
 
-FROM nginx:1.24.0-alpine
+FROM nginx:1.29.7-alpine
 WORKDIR /srv/www/
 
 COPY nginx.conf /etc/nginx/
