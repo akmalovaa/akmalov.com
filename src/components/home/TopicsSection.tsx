@@ -8,7 +8,7 @@ import {
   SiGooglehome,
 } from '@icons-pack/react-simple-icons';
 import Icon from '@mdi/react';
-import { mdiAccessPointNetwork, mdiInfinity, mdiRobotOutline } from '@mdi/js';
+import { mdiAccessPointNetwork, mdiInfinity } from '@mdi/js';
 
 const topics = [
   {
@@ -73,15 +73,6 @@ const topics = [
     iconColor: 'text-rose-400',
     borderHover: 'hover:border-rose-400/40',
     desc: 'Сети, маршрутизация, протоколы',
-  },
-  {
-    name: 'AI',
-    icon: <Icon path={mdiRobotOutline} size="32px" />,
-    to: '/blog/tags/ai',
-    color: 'from-fuchsia-400/20 to-fuchsia-400/5',
-    iconColor: 'text-fuchsia-400',
-    borderHover: 'hover:border-fuchsia-400/40',
-    desc: 'LLM, инструменты',
   },
 ];
 
