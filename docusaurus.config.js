@@ -27,6 +27,41 @@ const config = {
     defaultLocale: 'ru',
     locales: ['ru'],
   },
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'Блог про DevOps, SRE, AI, Docker, Kubernetes, Linux, Python, MikroTik и homelab — гайды, туториалы и заметки из практики.',
+      },
+    },
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Artur Akmalov',
+        url: 'https://akmalov.com',
+        description: 'Блог про DevOps, SRE, AI, Docker, Kubernetes, Linux, Python, MikroTik и homelab — гайды, туториалы и заметки из практики.',
+        inLanguage: 'ru',
+        author: {
+          '@type': 'Person',
+          name: 'Artur Akmalov',
+          alternateName: 'Артур Акмалов',
+          url: 'https://akmalov.com/about',
+          jobTitle: 'Product Engineer',
+          sameAs: [
+            'https://github.com/akmalovaa',
+            'https://linkedin.com/in/akmalov-artur/',
+            'https://t.me/AAkmalov',
+          ],
+        },
+      }),
+    },
+  ],
 
   presets: [
     [
@@ -42,6 +77,7 @@ const config = {
           showReadingTime: true,
           blogSidebarCount: 0,
           editUrl: 'https://github.com/akmalovaa/akmalov.com/tree/main/',
+          onInlineAuthors: 'warn',
           feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} Artur Akmalov`,
@@ -54,6 +90,11 @@ const config = {
               });
             },
           },
+        },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: null,
+          priority: null,
         },
         ...(process.env.GOOGLE_ANALYTICS_TAG_ID && {
           gtag: {

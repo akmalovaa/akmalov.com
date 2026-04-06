@@ -1,6 +1,7 @@
 ---
 slug: oha
 title: Генератор http трафика - oha
+authors: [akmalov]
 description: Генератор HTTP-нагрузки, аналог rakyll/hey с анимацией tui.
 image: ./logo.png
 tags: [networks, tools]

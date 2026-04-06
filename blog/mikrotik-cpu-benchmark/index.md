@@ -1,6 +1,7 @@
 ---
 slug: mikrotik-cpu-benchmark
 title: MikroTik CPU Benchmark
+authors: [akmalov]
 description: Сравнение производительности CPU на устройствах MikroTik
 image: ./logo.png
 tags: [homelab, networks]

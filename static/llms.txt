@@ -1,0 +1,35 @@
+# Artur Akmalov — DevOps & Homelab Blog
+
+> Russian-language technical blog by Artur Akmalov, Product Engineer.
+> Covers DevOps, Docker, Kubernetes, Linux, Python, MikroTik networking, and homelab self-hosting.
+> Content includes step-by-step guides, command references, and practical tutorials from real deployments.
+
+## Blog Posts
+- https://akmalov.com/blog/homelab-ssl-certificate: Создание самоподписанного wildcard SSL-сертификата с OpenSSL для домашней лаборатории
+- https://akmalov.com/blog/oha: HTTP нагрузочное тестирование с помощью oha — альтернатива hey на Rust
+- https://akmalov.com/blog/adguard-home: Установка и настройка домашнего DNS сервера AdGuard Home с Docker и DNS-over-HTTPS
+- https://akmalov.com/blog/nginx-proxy-manager: Настройка NGINX Proxy Manager как обратного прокси в homelab
+- https://akmalov.com/blog/uptime-kuma: Self-hosted мониторинг доступности сервисов с Uptime Kuma
+- https://akmalov.com/blog/mikrotik-cpu-benchmark: Сравнительный тест производительности процессоров MikroTik (RB5009, HAP AX3, HAP AX2)
+- https://akmalov.com/blog/mikrotik-chr: Развёртывание MikroTik Cloud Hosted Router на облачном VPS
+- https://akmalov.com/blog/mikrotik-nginx: Настройка MikroTik с nginx reverse proxy
+- https://akmalov.com/blog/gitlab-auto-reviewers: Автоматическое добавление ревьюеров в GitLab merge requests через CI/CD
+- https://akmalov.com/blog/monitoring-web-hosts: Мониторинг SSL сертификатов и доступности хостов с Prometheus и Grafana
+- https://akmalov.com/blog/monitoring-pc-club: Система мониторинга оборудования в компьютерном клубе
+- https://akmalov.com/blog/image-generator-python-flask-docker: Генератор изображений на Python Flask в Docker
+- https://akmalov.com/blog/cache-server: Настройка кэш-сервера для компьютерного клуба
+- https://akmalov.com/blog/wildcard-ssl-cert: Автоматическое обновление wildcard SSL сертификатов
+- https://akmalov.com/blog/docusaurus-comments: Добавление комментариев Giscus в Docusaurus блог
+- https://akmalov.com/blog/rdp-wrapper: Настройка RDP Wrapper для Windows
+
+## Documentation (Knowledge Base)
+- https://akmalov.com/docs: Индекс базы знаний — AI, Python, Kubernetes, Proxmox, Homelab
+- https://akmalov.com/docs/ai: Заметки и руководства по AI-инструментам, которые я использую каждый день: LLM, агенты, MCP, автоматизация разработки
+- https://akmalov.com/docs/ai/claudecode: Руководство по Claude Code CLI — команды, модели, MCP, хуки
+- https://akmalov.com/docs/python/: Заметки по Python — обучение, библиотеки, скрипты
+- https://akmalov.com/docs/category/kubernetes: Kubernetes — команды, архитектура, заметки
+- https://akmalov.com/docs/category/proxmox: Proxmox — виртуализация, команды, настройка
+- https://akmalov.com/docs/category/homelab: Homelab — железо, сервисы, self-hosted
+
+## About the Author
+- https://akmalov.com/about: Artur Akmalov — DevOps Engineer, certified MikroTik specialist (MTCNA, MTCRE, MTCTCE, MTCSE, MTCSWE), Cisco Routing

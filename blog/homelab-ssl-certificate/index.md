@@ -1,6 +1,7 @@
 ---
 slug: homelab-ssl-certificate
 title: Homelab SSL Certificate
+authors: [akmalov]
 description: Самоподписанный локальный SSL сертификат
 image: ./logo.png
 tags: [homelab, networks]

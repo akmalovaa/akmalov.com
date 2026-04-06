@@ -1,6 +1,7 @@
 ---
 slug: zabbix-open-winbox
 title: Zabbix URL to open winbox
+authors: [akmalov]
 description: zabbix url to open winbox, ssh, rdp, vnc
 image: ./logo.png
 tags: [homelab, networks]

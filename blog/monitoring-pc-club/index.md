@@ -1,6 +1,7 @@
 ---
 slug: monitoring-pc-club
 title: Мониторинг для компьютерного клуба
+authors: [akmalov]
 description: Система мониторинга в компьютерном клубе
 image: ./monitoring-pc-club.png
 tags: [docker, monitoring]

@@ -1,6 +1,7 @@
 ---
 slug: wildcard-ssl-cert
 title: Auto wildcard cert service
+authors: [akmalov]
 description: Простой способ получить wildcard ssl сертификат для своего домена с использованием Cloudflare и acme.sh
 image: ./wildcard-logo.png
 tags: [docker, homelab, ssl]

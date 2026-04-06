@@ -1,6 +1,7 @@
 ---
 slug: uptime-kuma
 title: Uptime-kuma self-hosted monitoring
+authors: [akmalov]
 description: Простой и удобный способ мониторить хосты
 image: ./uptime-kuma-logo.png
 tags: [monitoring, docker, ssl]

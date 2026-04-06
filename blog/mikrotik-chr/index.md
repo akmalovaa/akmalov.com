@@ -1,6 +1,7 @@
 ---
 slug: mikrotik-chr
 title: Mikrotik CHR cloud hosted router
+authors: [akmalov]
 description: Mikrotik CHR Cloud Hosted Router install timeweb VPS
 image: ./logo.png
 tags: [homelab, networks]

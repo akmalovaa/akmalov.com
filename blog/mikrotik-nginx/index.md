@@ -1,6 +1,7 @@
 ---
 slug: mikrotik-nginx
 title: Mikrotik nginx reverse proxy
+authors: [akmalov]
 description: Mikrotik container nginx reverse proxy RouterOS container
 image: ./logo.png
 tags: [homelab, linux, networks]

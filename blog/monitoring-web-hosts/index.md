@@ -1,7 +1,8 @@
 ---
 slug: monitoring-web-hosts
 title: Monitoring web hosts
-description: monitoring web ssl certificate expried uptime kuma grafana prometheus docker
+authors: [akmalov]
+description: Self-hosted мониторинг доступности хостов и SSL сертификатов с оповещениями в Telegram
 image: ./monitoring-web-hosts-logo.png
 tags: [monitoring, ssl, docker]
 keywords: [monitoring, grafana, ssl, telegram, prometheus, docker]

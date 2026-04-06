@@ -1,6 +1,7 @@
 ---
 slug: cache-server
 title: Cache Server для компьютерного клуба
+authors: [akmalov]
 description: Сервер для компьютерного клуба. Cache Server позволяет разгрузить интернет канал и скачивать обновления по локальной сети
 image: ./logo-lan-cache-server.png
 tags: [docker, linux, networks]

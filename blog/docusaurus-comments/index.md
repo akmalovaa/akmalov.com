@@ -1,6 +1,7 @@
 ---
 slug: docusaurus-comments
 title: Docusaurus комментарии
+authors: [akmalov]
 description: Add commenst docusaurus, добавление коментариев в docusaurus с использованием Giscus
 image: ./docusaurus-comments.png
 tags: [docusaurus, github]

@@ -1,6 +1,7 @@
 ---
 slug: gitlab-auto-reviewers
 title: Gitlab auto add reviewers
+authors: [akmalov]
 description: Gitlab auto assign reviewer for merge request
 image: ./gitlab-reviewers.png
 tags: [gitlab, devops, bash, python]
