@@ -707,7 +707,7 @@ sysbench</p>
             <link>https://akmalov.com/blog/monitoring-web-hosts</link>
             <guid>https://akmalov.com/blog/monitoring-web-hosts</guid>
             <pubDate>Thu, 13 Jul 2023 10:42:00 GMT</pubDate>
-            <description><![CDATA[monitoring web ssl certificate expried uptime kuma grafana prometheus docker]]></description>
+            <description><![CDATA[Self-hosted мониторинг доступности хостов и SSL сертификатов с оповещениями в Telegram]]></description>
             <content:encoded><![CDATA[<p>self-hosted сервер мониторинга доступности хостов, времени действия SSL сертификатов с оповещениями в telegram</p>
 <p><a class="" href="https://akmalov.com/blog/monitoring-web-hosts"><img decoding="async" loading="lazy" alt="Monitoring web hosts" src="https://akmalov.com/assets/images/monitoring-web-hosts-logo-b1ba2ab5f07b6e69140fa7c31431038e.png" width="1500" height="500" class="img_ev3q"></a></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="uptime-kuma">Uptime-kuma<a href="https://akmalov.com/blog/monitoring-web-hosts#uptime-kuma" class="hash-link" aria-label="Прямая ссылка на Uptime-kuma" title="Прямая ссылка на Uptime-kuma" translate="no">​</a></h2>
