@@ -26,6 +26,7 @@
 - https://akmalov.com/docs: Индекс базы знаний — AI, Python, Kubernetes, Proxmox, Homelab
 - https://akmalov.com/docs/ai: Заметки и руководства по AI-инструментам, которые я использую каждый день: LLM, агенты, MCP, автоматизация разработки
 - https://akmalov.com/docs/ai/claudecode: Руководство по Claude Code CLI — команды, модели, MCP, хуки
+- https://akmalov.com/docs/ai/gateway: AI Gateway — обзор агрегаторов LLM-моделей: OpenRouter, LiteLLM, Portkey, Polza.AI, One API
 - https://akmalov.com/docs/python/: Заметки по Python — обучение, библиотеки, скрипты
 - https://akmalov.com/docs/category/kubernetes: Kubernetes — команды, архитектура, заметки
 - https://akmalov.com/docs/category/proxmox: Proxmox — виртуализация, команды, настройка

@@ -5,11 +5,10 @@ import {
   SiLinux,
   SiPython,
   SiKubernetes,
-  SiGooglecolab,
   SiGooglehome,
 } from '@icons-pack/react-simple-icons';
 import Icon from '@mdi/react';
-import { mdiAccessPointNetwork } from '@mdi/js';
+import { mdiAccessPointNetwork, mdiInfinity, mdiRobotOutline } from '@mdi/js';
 
 const topics = [
   {
@@ -32,7 +31,7 @@ const topics = [
   },
   {
     name: 'DevOps',
-    icon: <SiGooglecolab size={32} />,
+    icon: <Icon path={mdiInfinity} size="32px" />,
     to: '/blog/tags/devops',
     color: 'from-green-400/20 to-green-400/5',
     iconColor: 'text-green-400',
@@ -74,6 +73,15 @@ const topics = [
     iconColor: 'text-rose-400',
     borderHover: 'hover:border-rose-400/40',
     desc: 'Сети, маршрутизация, протоколы',
+  },
+  {
+    name: 'AI',
+    icon: <Icon path={mdiRobotOutline} size="32px" />,
+    to: '/blog/tags/ai',
+    color: 'from-fuchsia-400/20 to-fuchsia-400/5',
+    iconColor: 'text-fuchsia-400',
+    borderHover: 'hover:border-fuchsia-400/40',
+    desc: 'LLM, инструменты',
   },
 ];
 

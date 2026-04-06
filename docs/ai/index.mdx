@@ -2,13 +2,26 @@
 sidebar_position: 1
 title: AI инструменты
 description: Подборка AI-инструментов для разработчиков — Claude Code, LLM, MCP, субагенты. Гайды, шпаргалки и практические заметки по работе с ИИ.
-keywords: [ai, искусственный интеллект, llm, claude, claude code, anthropic, mcp, субагенты, ai для разработчиков, ai инструменты, гайды по ai]
+keywords:
+  [
+    ai,
+    искусственный интеллект,
+    llm,
+    claude,
+    claude code,
+    anthropic,
+    mcp,
+    субагенты,
+    ai для разработчиков,
+    ai инструменты,
+    гайды по ai,
+  ]
 ---
 
-import Link from '@docusaurus/Link';
-import {SiAnthropic} from '@icons-pack/react-simple-icons';
-import Icon from '@mdi/react';
-import {mdiRobotHappy} from '@mdi/js';
+import Link from "@docusaurus/Link";
+import { SiAnthropic } from "@icons-pack/react-simple-icons";
+import Icon from "@mdi/react";
+import { mdiRobotHappy, mdiRouterNetwork } from "@mdi/js";
 
 # AI инструменты
 
@@ -16,13 +29,33 @@ import {mdiRobotHappy} from '@mdi/js';
 
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 mb-8">
 
-<Link to="/docs/ai/claudecode" className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-orange-400/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline">
+<Link
+  to="/docs/ai/claudecode"
+  className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-orange-400/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline"
+>
   <div className="shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-orange-400/20 to-orange-400/5 flex items-center justify-center text-orange-400">
     <SiAnthropic size={24} />
   </div>
   <div>
     <span className="block font-semibold text-base">Claude Code</span>
-    <span className="block text-sm text-gray-500 mt-0.5">AI-ассистент в терминале, MCP, субагенты</span>
+    <span className="block text-sm text-gray-500 mt-0.5">
+      AI-ассистент в терминале, MCP, субагенты
+    </span>
+  </div>
+</Link>
+
+<Link
+  to="/docs/ai/gateway"
+  className="group flex items-center gap-4 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-blue-400/40 hover:bg-white/[0.04] transition-all duration-300 no-underline text-gray-300 hover:text-white hover:no-underline"
+>
+  <div className="shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-blue-400/20 to-blue-400/5 flex items-center justify-center text-blue-400">
+    <Icon path={mdiRouterNetwork} size={1} />
+  </div>
+  <div>
+    <span className="block font-semibold text-base">AI Gateway</span>
+    <span className="block text-sm text-gray-500 mt-0.5">
+      Единый API для LLM: OpenRouter, LiteLLM, Portkey
+    </span>
   </div>
 </Link>
 

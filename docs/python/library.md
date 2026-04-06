@@ -22,7 +22,7 @@ sidebar_position: 7
 - [**aio-pika**](https://github.com/mosquito/aio-pika) — асинхронная библиотека для работы с RabbitMQ
 
 ## HTTP клиенты
-- [**httpx**](https://github.com/encode/httpx) — современный HTTP клиент с поддержкой sync/async и HTTP/2
+- [**httpx**](https://github.com/encode/httpx) — HTTP клиент с поддержкой sync/async и HTTP/2 (надо найти альтернативу)
 - [**requests**](https://github.com/psf/requests) — классический и самый популярный HTTP клиент
 
 ## Валидация и сериализация

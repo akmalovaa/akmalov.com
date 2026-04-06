@@ -45,7 +45,7 @@ Homelab - интересные проекты и сервисы
 - [**CrowdSec**](https://github.com/crowdsecurity/crowdsec) - Блокировка подозрительных IP адресов
 - [**Speedtest-rust**](https://github.com/librespeed/speedtest-rust) - Тестирование пропускной способности канала
 - [**PostgreSQL**](https://www.postgresql.org/) - База данных
-- [**Minio S3**](https://github.com/minio/minio) - Хранилище объектов
+- [**RustFS**](https://github.com/rustfs/rustfs) - Хранилище объектов S3, замена MinIO на Rust
 - [**Duplicati**](https://www.duplicati.com/) - Резервное копирование
 - [**Syncthing**](https://github.com/syncthing/syncthing) - Синхронизация файлов
 - [**Cockpit**](https://github.com/cockpit-project/cockpit) - Веб интерфейс для управления сервером

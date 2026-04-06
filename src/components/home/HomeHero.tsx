@@ -17,8 +17,14 @@ export default function HomeHero() {
             Записи по
           </span>
           <br />
-          <span className="bg-gradient-to-r from-cyan-400 to-cyan-300 bg-clip-text text-transparent">
-            DevOps, Linux, Python  &amp; AI
+          <span
+            className="bg-clip-text text-transparent"
+            style={{
+              backgroundImage:
+                'linear-gradient(135deg, #22d3ee 0%, #818cf8 50%, #c084fc 100%)',
+            }}
+          >
+            DevOps, Linux, Python &amp; AI
           </span>
         </h1>
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">

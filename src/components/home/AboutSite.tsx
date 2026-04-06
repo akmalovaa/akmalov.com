@@ -1,35 +1,44 @@
 import React from 'react';
+import Icon from '@mdi/react';
+import {
+  mdiLightningBolt,
+  mdiShieldCheckOutline,
+  mdiStarFourPointsOutline,
+  mdiLanguageMarkdownOutline,
+  mdiDatabaseOffOutline,
+  mdiResponsive,
+} from '@mdi/js';
 
 const concepts = [
   {
-    icon: '⚡',
+    icon: mdiLightningBolt,
     title: 'Скорость',
     desc: 'Загрузка страниц менее 1 секунды',
   },
   {
-    icon: '🛡',
+    icon: mdiShieldCheckOutline,
     title: 'Надежность',
-    desc: 'Статичный сайт, минимальные требования',
+    desc: 'Статичный сайт без зависимостей',
   },
   {
-    icon: '✦',
+    icon: mdiStarFourPointsOutline,
     title: 'Минимализм',
     desc: 'Без лишних скриптов и рекламы',
   },
   {
-    icon: '📄',
+    icon: mdiLanguageMarkdownOutline,
     title: 'Markdown',
     desc: 'Записи в формате .md и .mdx',
   },
   {
-    icon: '🗄',
+    icon: mdiDatabaseOffOutline,
     title: 'База данных',
     desc: 'Не использовать, пока мало данных',
   },
   {
-    icon: '📱',
+    icon: mdiResponsive,
     title: 'Адаптивность',
-    desc: 'Подстройка под любые устройства',
+    desc: 'Мобильный и десктопный вид',
   },
 ];
 
@@ -47,7 +56,9 @@ export default function AboutSite() {
               key={item.title}
               className="group p-6 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-white/[0.12] transition-all duration-300"
             >
-              <div className="text-2xl mb-3">{item.icon}</div>
+              <div className="text-cyan-400 mb-3">
+                <Icon path={item.icon} size="28px" />
+              </div>
               <h4 className="text-cyan-400 font-semibold mb-1.5 text-lg">
                 {item.title}
               </h4>
