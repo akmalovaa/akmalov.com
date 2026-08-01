@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkakmalov_com||=[]).push([[6969],{2209(s,a,c){c.d(a,{A:()=>i});c(6540);var e=c(8774),r=c(6025),l=c(4848);function i(){const s=(0,r.Ay)("/docs");return(0,l.jsx)("li",{className:"breadcrumbs__item",children:(0,l.jsx)(e.A,{"aria-label":"Docs",className:"breadcrumbs__link",href:s,children:"Docs"})})}}}]);

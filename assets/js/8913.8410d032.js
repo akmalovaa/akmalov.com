@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkakmalov_com||=[]).push([[8913],{8913(a,s,c){c.r(s)}}]);
