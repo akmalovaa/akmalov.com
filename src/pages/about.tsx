@@ -118,7 +118,7 @@ export default function About(): React.JSX.Element {
             {skills.map((skill) => (
               <div
                 key={skill.category}
-                className="p-5 rounded-xl bg-white/[0.02] border border-white/[0.06] hover:border-white/[0.12] transition-all duration-300"
+                className="p-5 rounded-xl bg-white/[0.02] border border-white/10 hover:border-white/20 transition-all duration-300"
               >
                 <h3 className="text-cyan-400 font-semibold text-base mb-4">
                   {skill.category}
@@ -142,7 +142,7 @@ export default function About(): React.JSX.Element {
         {/* GitHub */}
         <section className="mb-20">
           <h2 className="text-3xl font-bold mb-8">GitHub</h2>
-          <div className="p-6 rounded-xl bg-white/[0.02] border border-white/[0.06]">
+          <div className="p-6 rounded-xl bg-white/[0.02] border border-white/10">
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://github.com/akmalovaa" target="_blank" rel="noopener noreferrer">
                 <img
@@ -172,7 +172,7 @@ export default function About(): React.JSX.Element {
                 href={cert.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-start gap-3 p-5 rounded-xl bg-white/[0.02] border border-white/[0.06]
+                className="group flex items-start gap-3 p-5 rounded-xl bg-white/[0.02] border border-white/10
                   hover:border-cyan-500/40 hover:bg-cyan-500/[0.03] transition-all duration-300 no-underline"
               >
                 <Icon path={mdiCertificate} size="24px" className="text-cyan-400 shrink-0 mt-0.5" />
@@ -180,7 +180,7 @@ export default function About(): React.JSX.Element {
                   <span className="text-cyan-400 font-bold text-base group-hover:text-cyan-300 transition-colors">
                     {cert.name}
                   </span>
-                  <p className="text-gray-500 text-sm mt-1 mb-0">{cert.desc}</p>
+                  <p className="text-gray-400 text-sm mt-1 mb-0">{cert.desc}</p>
                 </div>
               </a>
             ))}

@@ -159,6 +159,7 @@ const config = {
     }),
   plugins: [
     require('./plugins/tailwind-plugin'),
+    require('./plugins/blog-data-plugin'),
   ]
 };
 

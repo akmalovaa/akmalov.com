@@ -2,8 +2,8 @@ import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomeHero from '../components/home/HomeHero';
+import RecentPosts from '../components/home/RecentPosts';
 import TopicsSection from '../components/home/TopicsSection';
-import AboutSite from '../components/home/AboutSite';
 
 export default function Home(): React.JSX.Element {
   const {siteConfig} = useDocusaurusContext();
@@ -13,7 +13,7 @@ export default function Home(): React.JSX.Element {
       description="Акмалов Артур - личный блог для записей по темам Devops, Python, Linux, Homelab, k8s">
       <HomeHero />
       <TopicsSection />
-      <AboutSite />
+      <RecentPosts />
     </Layout>
   );
 }

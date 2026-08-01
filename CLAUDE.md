@@ -18,7 +18,7 @@ Personal blog and documentation site (akmalov.com) built with Docusaurus 3. The 
 
 - **Content**: Markdown/MDX files in `docs/` (documentation organized by topic with auto-generated sidebar) and `blog/` (blog posts, each in its own directory with an `index.md`)
 - **Custom pages**: `src/pages/` — homepage (`index.tsx`), about page (`about.tsx`)
-- **Components**: `src/components/home/` — landing page sections (HomeHero, TopicsSection, AboutSite)
+- **Components**: `src/components/home/` — landing page sections (HomeHero, RecentPosts, TopicsSection)
 - **Theme overrides**: `src/theme/BlogPostItem.tsx` — swizzled to inject Giscus comments on blog post pages
 - **Styling**: Tailwind CSS (`@import "tailwindcss"` in `src/css/custom.css`) for utility classes, plus Infima (Docusaurus CSS framework) for base styles. Color mode is locked to dark.
 - **Icons**: `@icons-pack/react-simple-icons` for brand icons (Docker, K8s, Python, etc.), `@mdi/react` + `@mdi/js` for Material Design Icons
@@ -28,6 +28,7 @@ Personal blog and documentation site (akmalov.com) built with Docusaurus 3. The 
 - `docusaurus.config.js` — site config; Algolia search and Google Analytics are conditionally enabled via env vars (`ALGOLIA_APP_ID`, `ALGOLIA_API_KEY`, `ALGOLIA_INDEX_NAME`, `GOOGLE_ANALYTICS_TAG_ID`)
 - `sidebars.js` — auto-generated from `docs/` folder structure
 - `plugins/tailwind-plugin.js` — Tailwind CSS integration
+- `plugins/blog-data-plugin.js` — читает front matter из `blog/*/index.md` и отдаёт в global data последние записи и число записей на тег. Используется на главной (`RecentPosts`, счётчики в `TopicsSection`) через `usePluginData('blog-data')`
 - Deployment: Dockerfile builds static assets and serves via nginx on port 8000; also supports GitHub Pages via `npm run deploy`
 
 ## Testing
