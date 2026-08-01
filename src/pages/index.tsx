@@ -5,7 +5,7 @@ import HomeHero from '../components/home/HomeHero';
 import TopicsSection from '../components/home/TopicsSection';
 import AboutSite from '../components/home/AboutSite';
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout

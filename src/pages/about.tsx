@@ -80,7 +80,7 @@ const contacts = [
   { name: 'GitHub', href: 'https://github.com/akmalovaa', icon: <SiGithub size={18} />, bg: 'bg-gray-700 hover:bg-gray-600' },
 ];
 
-export default function About(): JSX.Element {
+export default function About(): React.JSX.Element {
   return (
     <Layout title="About">
       <div className="max-w-5xl mx-auto px-6 py-20">

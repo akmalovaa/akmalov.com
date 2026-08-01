@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import AuthorSocials from '@theme/Blog/Components/Author/Socials';
+import type {Props} from '@theme/Blog/Components/Author';
 import {useBlogPost} from '@docusaurus/plugin-content-blog/client';
 
 function MaybeLink(props: {href?: string; className?: string; children: React.ReactNode}) {
@@ -11,7 +12,7 @@ function MaybeLink(props: {href?: string; className?: string; children: React.Re
   return <>{props.children}</>;
 }
 
-export default function BlogAuthor({as, author, className, count}) {
+export default function BlogAuthor({as, author, className, count}: Props) {
   const {name, title, url, imageURL, email, page} = author;
   const link = page?.permalink || url || (email && `mailto:${email}`) || undefined;
 

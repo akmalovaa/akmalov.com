@@ -1,10 +1,14 @@
 import React from 'react';
 import BlogPostItem from '@theme-original/BlogPostItem';
+import type BlogPostItemType from '@theme/BlogPostItem';
+import type {WrapperProps} from '@docusaurus/types';
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client';
 import BlogAuthor from '@theme/Blog/Components/Author';
 import Giscus from "@giscus/react";
 
-export default function BlogPostItemWrapper(props) {
+type Props = WrapperProps<typeof BlogPostItemType>;
+
+export default function BlogPostItemWrapper(props: Props) {
   const { isBlogPostPage, metadata, assets } = useBlogPost();
   if (!isBlogPostPage) {
     return <BlogPostItem {...props} />;

@@ -41,4 +41,7 @@ Personal blog and documentation site (akmalov.com) built with Docusaurus 3. The 
 - Docs are organized in topic directories under `docs/`, each with a `_category_.json` for sidebar ordering
 - Site locale is `ru` (Russian)
 - Navbar labels are in English (Blog, Docs, About) — do not translate them
-- `static/llms.txt` — индекс контента для AI/LLM краулеров (SEO/GEO оптимизация). При добавлении новой статьи в `blog/` или документа в `docs/` обязательно обновлять `llms.txt`: добавить ссылку с кратким описанием в соответствующую секцию (Blog Posts / Docs). Поддерживать файл в актуальном состоянии — удалять/править записи о перемещённом или удалённом контенте.
+- `static/llms.txt` — индекс контента для AI/LLM краулеров (SEO/GEO). Любое изменение состава `blog/` или `docs/` требует правки `llms.txt`:
+  - добавлен файл → добавить ссылку с кратким описанием в секцию Blog Posts / Docs
+  - удалён или перемещён файл → удалить/поправить запись (проверять `git status` на ` D` перед коммитом)
+- Внешние ссылки перед добавлением в доки проверять на доступность: `curl -s -o /dev/null -w "%{http_code}" -L <url>` (ожидать 200)
