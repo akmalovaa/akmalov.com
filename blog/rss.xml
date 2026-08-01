@@ -159,7 +159,7 @@ sysbench</p>
             <pubDate>Fri, 16 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Самоподписанный локальный SSL сертификат]]></description>
             <content:encoded><![CDATA[<p>Создание самоподписанного SSL сертификата для локального использования</p>
-<p><a class="" href="https://akmalov.com/blog/homelab-ssl-certificate"><img decoding="async" loading="lazy" alt="homelab ssl certificate" src="https://akmalov.com/assets/images/logo-763162b9d97b418dae8911d000fb916f.png" width="1201" height="470" class="img_ev3q"></a></p>
+<p><a class="" href="https://akmalov.com/blog/homelab-ssl-certificate"><img decoding="async" loading="lazy" alt="homelab ssl certificate" src="https://akmalov.com/assets/images/logo-887e7d14bdadabab000e54b142642689.png" width="1500" height="500" class="img_ev3q"></a></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="введение">Введение<a href="https://akmalov.com/blog/homelab-ssl-certificate#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" class="hash-link" aria-label="Прямая ссылка на Введение" title="Прямая ссылка на Введение" translate="no">​</a></h2>
 <p>Самый простой способ при наличии купленного доменного имени — получить wildcard сертификат от Let's Encrypt.</p>
 <p>Если нет своего доменного имени, но требуется использовать поддомены с HTTPS в своей локальной сети, можно использовать самоподписанные сертификаты.</p>
