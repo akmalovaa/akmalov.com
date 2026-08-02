@@ -5,7 +5,7 @@ authors: [akmalov]
 description: Mikrotik CHR Cloud Hosted Router install timeweb VPS
 image: ./logo.png
 tags: [homelab, networks]
-keywords: [mikrotik, chr, cloud, timeweb, vps, routeros, routing]
+keywords: [mikrotik, chr, cloud, timeweb, vdsina, vps, routeros, routing, dd]
 date: 2024-05-12
 ---
 
@@ -152,6 +152,66 @@ dd if=chr-7.14.3.img of=/dev/vda
 [![chr_hacked](./chr_hacked.png)](./chr_hacked.png)
 
 Идет постоянное сканирование портов: `22,23,8291,8022,8728,8729`
+
+
+## Установка без режима восстановления (live-dd)
+
+:::info Обновление 2026-08-02
+Ставил CHR на VPS от другого облачного провайдера — а там режима восстановления нет. Альтернативный способ универсальный для любого провайдера с KVM.
+:::
+
+Идея: скачать образ в RAM, остановить запись на диск и перезаписать его прямо под работающей системой. Все команды выполняются по SSH от root.
+
+Скачать и распаковать образ в `/dev/shm` — это tmpfs в оперативке. На диск класть нельзя: мы его сейчас затрём вместе с образом:
+
+```shell
+VER=7.23.2
+cd /dev/shm
+curl -O "https://download.mikrotik.com/routeros/$VER/chr-$VER.img.zip"
+python3 -m zipfile -e chr-$VER.img.zip .   # unzip в свежей Ubuntu может отсутствовать
+```
+
+**Если у провайдера нет DHCP**, CHR после загрузки поднимется без сети. Решение — заранее положить внутрь образа скрипт `autorun.scr`, RouterOS выполнит его при первом старте. Монтируем вторую партицию образа (старт её сектора смотрим в `fdisk -l`, у 7.23.2 это 65570):
+
+```shell
+fdisk -l chr-$VER.img              # найти старт второй партиции
+mkdir -p /mnt/chr
+mount -o loop,offset=$((65570*512)) chr-$VER.img /mnt/chr
+printf '/ip address add address=<IP>/24 interface=ether1\n/ip route add gateway=<GATEWAY>\n' > /mnt/chr/rw/autorun.scr
+umount /mnt/chr
+```
+
+IP, маску и шлюз подставить свои — они обычно показаны в панели провайдера.
+
+Теперь главное — перевести все файловые системы в read-only через SysRq и только потом писать образ:
+
+```shell
+echo 1 > /proc/sys/kernel/sysrq
+echo u > /proc/sysrq-trigger       # emergency remount read-only
+dd if=/dev/shm/chr-$VER.img of=/dev/vda bs=4M conv=fsync
+```
+
+:::danger Важно
+Без remount read-only ничего не выйдет. Живая ext4 продолжает сбрасывать журнал и грязные страницы на диск и затирает свежезаписанный образ. Загрузчик RouterOS при старте скажет `XZ-compressed data is corrupt — System halted`
+:::
+
+Проверить, что образ лёг байт в байт (хэши должны совпасть):
+
+```shell
+sha256sum /dev/shm/chr-$VER.img
+head -c $((128*1024*1024)) /dev/vda | sha256sum
+```
+
+Осталось перезагрузиться жёстким ресетом из панели провайдера. Новое SSH-подключение система уже не примет (`Permission denied` — sshd не может читать перезаписанный диск), это нормально: раз хэши совпали, после ресета загрузится CHR.
+
+Проверка не отходя от терминала — на порту 22 должен появиться баннер RouterOS:
+
+```shell
+nc -w 3 <IP> 22 </dev/null | head -c 40
+# SSH-2.0-ROSSSH
+```
+
+Дальше всё как обычно: `admin` с пустым паролем — и **сразу менять пароль**.
 
 
 ## Настройка CHR
