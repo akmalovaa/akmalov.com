@@ -3,9 +3,9 @@ slug: releases-info
 title: Releases info
 authors: [akmalov]
 description: Сервис для проверки актуальных версий релизов — Docker, Python, Flask
-keywords: [docker, python, flask, releases, kubernetes]
+keywords: [docker, python, flask, releases, kubernetes, devops]
 image: ./update-releases.png
-tags: [docker, python, flask, releases, kubernetes]
+tags: [docker, python, flask, releases, kubernetes, devops]
 date: 2023-05-15
 ---
 
