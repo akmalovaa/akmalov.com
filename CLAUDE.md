@@ -39,6 +39,7 @@ Personal blog and documentation site (akmalov.com) built with Docusaurus 3. The 
 ## Content Conventions
 
 - Blog posts live in `blog/<slug>/index.md` with frontmatter (title, date, tags, etc.)
+- Обложка поста (`logo.png`, поле `image:` во frontmatter) — строго **1500 × 500** px, для единообразия карточек и OG-превью. Заготовки: `blog/_template/logo.png` и `logo-template.psd`. Проверка: `sips -g pixelWidth -g pixelHeight blog/<slug>/logo.png`
 - Docs are organized in topic directories under `docs/`, each with a `_category_.json` for sidebar ordering
 - Site locale is `ru` (Russian)
 - Navbar labels are in English (Blog, Docs, About) — do not translate them
