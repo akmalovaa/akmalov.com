@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkakmalov_com||=[]).push([[8947],{6600(a){a.exports=JSON.parse('{"authors":[{"name":"Artur Akmalov","title":"Product Engineer","url":"https://akmalov.com/about","socials":{"github":"https://github.com/akmalovaa","linkedin":"https://www.linkedin.com/in/akmalov-artur/"},"imageURL":"/img/avatar.jpg","key":"akmalov","page":null,"count":18}]}')}}]);
