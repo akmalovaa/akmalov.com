@@ -26,7 +26,8 @@
 - https://akmalov.com/docs: Индекс базы знаний — AI, Python, Kubernetes, Proxmox, Homelab
 - https://akmalov.com/docs/ai: Заметки и руководства по AI-инструментам, которые я использую каждый день: LLM, агенты, MCP, автоматизация разработки
 - https://akmalov.com/docs/ai/claudecode: Руководство по Claude Code CLI — команды, модели, MCP, хуки
-- https://akmalov.com/docs/python/: Заметки по Python — обучение, библиотеки, скрипты
+- https://akmalov.com/docs/python/: Заметки по Python — документация, YouTube-каналы конференций, Telegram-сообщества, тренажёры по типизации
+- https://akmalov.com/docs/python/skill: Python Skill — Agent Skill для Claude Code с дефолтным стеком (uv, ruff, pyright, pydantic, httpx2, structlog, pytest), правилами именования, fail loud и дисциплиной тестов
 - https://akmalov.com/docs/category/kubernetes: Kubernetes — команды, архитектура, заметки
 - https://akmalov.com/docs/category/proxmox: Proxmox — виртуализация, команды, настройка
 - https://akmalov.com/docs/category/homelab: Homelab — железо, сервисы, self-hosted
