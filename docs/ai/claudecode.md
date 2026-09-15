@@ -17,7 +17,7 @@ keywords: [claude code, claude code guide, ai coding, anthropic, claude cli, cla
 
 скилы:
 - [superpowers](https://github.com/obra/superpowers) (в целом помогает, но иногда как будто бы мешает)
-- [python-skill](https://github.com/akmalovaa/python-skill) - самописный скрипт заметки по Python
+- [python-skill](/docs/python/skill) — свой скил: дефолтный стек для Python, правила именования и обработки ошибок ([репозиторий](https://github.com/akmalovaa/python-skill))
 
 плагины:
 - [skill-creator](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator) Plugin · claude-plugins-official
