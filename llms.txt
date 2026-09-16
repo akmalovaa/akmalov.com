@@ -28,7 +28,7 @@
 - https://akmalov.com/docs/ai/claudecode: Руководство по Claude Code CLI — команды, модели, MCP, хуки
 - https://akmalov.com/docs/python/: Заметки по Python — документация, YouTube-каналы конференций, Telegram-сообщества, тренажёры по типизации
 - https://akmalov.com/docs/python/skill: Python Skill — Agent Skill для Claude Code с дефолтным стеком (uv, ruff, pyright, pydantic, httpx2, structlog, pytest), правилами именования, fail loud и дисциплиной тестов
-- https://akmalov.com/docs/category/kubernetes: Kubernetes — команды, архитектура, заметки
+- https://akmalov.com/docs/misc/kubernetes: Kubernetes — компоненты, объекты и запуск приложений
 - https://akmalov.com/docs/category/proxmox: Proxmox — виртуализация, команды, настройка
 - https://akmalov.com/docs/category/homelab: Homelab — железо, сервисы, self-hosted
 
