@@ -1,160 +1,151 @@
 ---
 sidebar_position: 2
+description: Настройка macOS и подборка приложений.
 ---
 
-# MacOS
+# macOS
+
+Мои настройки системы и приложения для повседневных задач и разработки. Настройки — дело привычки: ниже мой вариант, а не обязательный набор для всех.
 
 ## Первоначальная настройка
 
-### Настройки мышки
+Названия пунктов могут отличаться в зависимости от версии macOS.
 
-Убираю естественный скроллинг
+### Мышь {#настройки-мышки}
+
+В системных настройках мыши отключаю естественную прокрутку.
 
 ### Сочетания клавиш
 
-Системные настройки - Клавиатура - Сочетания клавиш
+В **Системных настройках → Клавиатура → Сочетания клавиш** меняю:
 
-- Поменять сочетания клавиш для поиска **Spotlight** (Alt + Пробел)
-- Поменять сочетания клавиш для смены языка ввода Источники ввода (Cmd + Пробел)
+- **Spotlight** — `Option (Alt) + Пробел`.
+- **Источники ввода** — `Command + Пробел` для смены языка.
 
 ### Finder
 
-**Настройки:**
+В настройках Finder:
 
-- Окно по умолчанию на папку пользователя
-- Настроить элементы бокового меню
-- Убрать тэги
-- Показывать расширения
-- Поиск - Искать в текущей папке
+- Открывать новые окна в домашней папке пользователя.
+- Оставить нужные элементы бокового меню и убрать теги.
+- Показывать расширения файлов.
+- При поиске искать в текущей папке.
 
-**Вид:**
-
-- Показать строку пути
-- Показать строку состояния
+В меню **Вид** включаю строку пути и строку состояния.
 
 ### Рабочий стол и Dock
 
-Урбрать лишнее
-Урбрать показывать недавнее
-Автоматически скрывать dock
+В **Системных настройках → Рабочий стол и Dock**:
 
-Настроить размер
-Убрать Показывать рабочий стол при нажатии на обоях
-Двойное нажатие убирать в Dock
+- Убираю лишние приложения из Dock и настраиваю его размер.
+- Отключаю показ недавних приложений.
+- Включаю автоматическое скрытие Dock.
+- Отключаю показ рабочего стола при нажатии на обои, если этот пункт доступен.
+- Настраиваю двойное нажатие на заголовок окна для сворачивания в Dock.
 
-Активные углы + Shift
+Для активных углов использую модификатор `Shift`, чтобы не вызывать действия случайно: Mission Control и показ рабочего стола в правом нижнем углу.
 
-- Misson controll
-- Lauchpad (Правый верхний угол)
-- Desktop (правый нижний угол)
+В Пункте управления оставляю только нужные значки.
 
-Lauchpad - Внутри все красиво раскидать по папкам
+### Подключение сетевого диска {#установка-nas}
 
-Пункт управления (Системные настройки)
-Настроить иконки под свои предпочтения убрать лишнее
+1. В Finder нажать `Command + K`.
+2. Ввести адрес общей папки, например `smb://nas.local/share`, заменив сервер и папку на свои.
+3. Подключиться и при необходимости добавить подключённый том в объекты входа для автоматического подключения.
 
-### Установка NAS
+## Установка приложений {#soft}
 
-Finder - cmd+K (Добавить URL)
-Добавлить подключение в автозапуск - Системные Настройки -> Объекты входа и расширения
+### Homebrew
 
-### Soft
-
-Установить homebrew
+[Homebrew](https://brew.sh/) — менеджер пакетов для установки приложений и консольных утилит.
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Установка Applite (UI Homebrew)
+После установки выполнить шаги из раздела **Next steps**, который выведет установщик. Проверить, что команда доступна:
+
+```shell
+brew --version
+```
+
+### Основные приложения
+
+- [Obsidian](https://obsidian.md/) — заметки в Markdown и личная база знаний.
+- [Telegram](https://desktop.telegram.org/) — мессенджер.
+
+```shell
+brew install --cask obsidian telegram-desktop
+```
+
+[Applite](https://applite.app/) — необязательный графический интерфейс для установки приложений через Homebrew.
 
 ```shell
 brew install --cask applite
 ```
 
-Obsidian
-
-```shell
-brew install --cask obsidian
-```
-
-Telegram
-
-```
-brew install --cask telegram-desktop
-```
-
 ### App Store
 
-- Pixea - просмотр картинок
-- Windows APP - RDP Client
-- Disk Speed - Тест скорости диска
+- [Pixea](https://apps.apple.com/app/pixea/id1507782672) — просмотр изображений.
+- [Windows App](https://learn.microsoft.com/en-us/windows-app/overview) — подключение к удалённым Windows-компьютерам по RDP; на странице Microsoft есть ссылки для установки.
 
-### Development
+## Разработка {#development}
 
-Терминал использую Tabby
+### Терминал и редактор
 
-```shell
-brew install --cask tabby
-
-# omy zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-VSCode
+- [Tabby](https://eugeny.github.io/tabby/) — терминал, который я использую, в том числе для SSH.
+- [Visual Studio Code](https://code.visualstudio.com/) — редактор кода.
 
 ```shell
-brew install --cask visual-studio-code
+brew install --cask tabby visual-studio-code
 ```
 
-Python UV Astral
+[Oh My Zsh](https://ohmyz.sh/) — дополнительная настройка оболочки zsh: темы и плагины. Устанавливается отдельно от терминала и не обязателен для работы Tabby.
+
+### Python
+
+[uv](https://docs.astral.sh/uv/) — управление версиями Python, зависимостями и окружениями проектов.
 
 ```shell
 brew install uv
 ```
 
-Orbstack аналог Docker + Docker Desktop
-Лучшее приложение для работы с контейнерами на MacOS
+### Контейнеры и Kubernetes
+
+- [OrbStack](https://orbstack.dev/) — запуск контейнеров и Linux-машин на macOS.
+- [FreeLens](https://freelens.app/) — графический интерфейс для работы с Kubernetes. Нужен только при работе с кластерами.
 
 ```shell
 brew install --cask orbstack
 ```
 
-k8s UI
-
 ```shell
 brew install --cask freelens
 ```
 
-http трафик генератор
+### HTTP
+
+[oha](https://github.com/hatoo/oha) — генератор HTTP-нагрузки для проверки производительности сервисов.
 
 ```shell
 brew install oha
 ```
 
-### Photo Video редакторы
+## Фото и видео {#photo-video-редакторы}
 
-- [Krita](https://formulae.brew.sh/cask/krita#default)
-- [OBS](https://formulae.brew.sh/cask/obs#default)
-- [Recut](https://formulae.brew.sh/cask/recut#default)
-- [Davinchi](https://apps.apple.com/ru/app/davinci-resolve/id571213070?mt=12)
+- [Krita](https://krita.org/) — рисование и редактирование изображений.
+- [OBS Studio](https://obsproject.com/) — запись экрана и трансляции.
+- [DaVinci Resolve](https://apps.apple.com/ru/app/davinci-resolve/id571213070?mt=12) — монтаж и цветокоррекция видео.
 
-### Misc
+## Полезные утилиты {#misc}
 
-Возможно интересные и полезные приложения
+Дополнения под конкретные задачи — устанавливать весь список не нужно.
 
-- [Raycast](https://formulae.brew.sh/cask/raycast#default) - замена spotlight, расширенный поиск + скрипты
-- [Rectangle](https://formulae.brew.sh/cask/rectangle#default) - управление окнами
-- [Stats](https://formulae.brew.sh/cask/stats#default) - мониторинг системы (статусы в трее)
-- [Ice](https://formulae.brew.sh/cask/jordanbaird-ice#default) - menu bar (что показать в трее, что убрать)
-- [Appcleaner](https://formulae.brew.sh/cask/appcleaner) - удаление приложений
-- [Maccy](https://formulae.brew.sh/cask/maccy#default) - расширенный буфер копирования
-- [PDF gear](https://www.pdfgear.com/) - работа с pdf
-- [Clop](https://formulae.brew.sh/cask/clop#default) - оптимизация изображений
-- [Dropover](https://apps.apple.com/us/app/dropover-easier-drag-drop/id1355679052?mt=12) - упростить перетаскивание
-- [Hand mirror](https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12) - удобная проверка веб-камеры
-- [balena](https://formulae.brew.sh/cask/balenaetcher#default) - Запись установочных(загрузочных) флеш
-- [Reminders MenuBar](https://formulae.brew.sh/cask/reminders-menubar#default) - напоминания в трее
-- [DeskPad](https://formulae.brew.sh/cask/deskpad#default) - виртуальный монитор (рабочий стол для шаринга)
-- [shottr](https://formulae.brew.sh/cask/shottr#default) - более функциональные скриншоты
-- Amphetamine - настройка событий для предотвращение перехода Mac в спящий режим
+- [Raycast](https://raycast.com/) — запуск приложений, поиск и быстрые действия.
+- [Rectangle](https://rectangleapp.com/) — размещение окон с помощью сочетаний клавиш.
+- [Stats](https://github.com/exelban/stats) — показатели нагрузки системы в строке меню.
+- [AppCleaner](https://freemacsoft.net/appcleaner/) — удаление приложений вместе со связанными файлами.
+- [Maccy](https://maccy.app/) — история буфера обмена.
+- [PDFgear](https://www.pdfgear.com/) — работа с PDF.
+- [balenaEtcher](https://etcher.balena.io/) — запись образов на USB-накопители.
+- [Shottr](https://shottr.cc/) — скриншоты с аннотациями.
