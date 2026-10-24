@@ -13,14 +13,15 @@
 - https://akmalov.com/blog/mikrotik-cpu-benchmark: Сравнительный тест производительности процессоров MikroTik (RB5009, HAP AX3, HAP AX2)
 - https://akmalov.com/blog/mikrotik-chr: Развёртывание MikroTik Cloud Hosted Router на облачном VPS
 - https://akmalov.com/blog/mikrotik-nginx: Настройка MikroTik с nginx reverse proxy
-- https://akmalov.com/blog/gitlab-auto-reviewers: Автоматическое добавление ревьюеров в GitLab merge requests через CI/CD
 - https://akmalov.com/blog/monitoring-web-hosts: Мониторинг SSL сертификатов и доступности хостов с Prometheus и Grafana
 - https://akmalov.com/blog/monitoring-pc-club: Система мониторинга оборудования в компьютерном клубе
+- https://akmalov.com/blog/releases-info: Releases info — сервис для проверки актуальных версий релизов GitHub-проектов (Docker, Python, Flask)
 - https://akmalov.com/blog/image-generator-python-flask-docker: Генератор изображений на Python Flask в Docker
 - https://akmalov.com/blog/cache-server: Настройка кэш-сервера для компьютерного клуба
 - https://akmalov.com/blog/wildcard-ssl-cert: Автоматическое обновление wildcard SSL сертификатов
 - https://akmalov.com/blog/docusaurus-comments: Добавление комментариев Giscus в Docusaurus блог
 - https://akmalov.com/blog/rdp-wrapper: Настройка RDP Wrapper для Windows
+- https://akmalov.com/blog/zabbix-open-winbox: Быстрое подключение к хостам с карт Zabbix по Winbox, SSH, RDP и VNC
 
 ## Documentation (Knowledge Base)
 - https://akmalov.com/docs: Индекс базы знаний — AI, Python, Kubernetes, Proxmox, Homelab
@@ -29,8 +30,12 @@
 - https://akmalov.com/docs/python/: Заметки по Python — документация, YouTube-каналы конференций, Telegram-сообщества, тренажёры по типизации
 - https://akmalov.com/docs/python/skill: Python Skill — Agent Skill для Claude Code с дефолтным стеком (uv, ruff, pyright, pydantic, httpx2, structlog, pytest), правилами именования, fail loud и дисциплиной тестов
 - https://akmalov.com/docs/misc/kubernetes: Kubernetes — компоненты, объекты и запуск приложений
+- https://akmalov.com/docs/misc/docker: Docker — установка, частые команды, зеркало Docker Hub
+- https://akmalov.com/docs/misc/helm: Helm — репозитории чартов и частые команды
+- https://akmalov.com/docs/misc/mikrotik: MikroTik — советы и скрипты RouterOS
 - https://akmalov.com/docs/category/proxmox: Proxmox — виртуализация, команды, настройка
 - https://akmalov.com/docs/category/homelab: Homelab — железо, сервисы, self-hosted
+- https://akmalov.com/docs/category/soft: Soft — программы и настройка macOS, Windows, CLI-утилиты
 
 ## About the Author
 - https://akmalov.com/about: Artur Akmalov — DevOps Engineer, certified MikroTik specialist (MTCNA, MTCRE, MTCTCE, MTCSE, MTCSWE), Cisco Routing
