@@ -27,15 +27,15 @@
     "clsx": "^2.1.1",
     "dotenv": "^17.4.2",
     "prism-react-renderer": "^2.4.1",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.10.2",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "playwright": "^1.63.0",
+    "playwright": "^1.64.1",
     "typescript": "^7.0.2"
   },
   "browserslist": {
@@ -59,10 +59,7 @@
   "overrides": {
     "serialize-javascript": "^7.0.4",
     "minimatch": "^10.2.4",
-    "punycode": "^2.3.1",
     "got": ">=15.0.6",
-    "trim": ">=1.0.1",
-    "nanoid": "^3.3.18",
     "uuid": "^11.1.1"
   }
 }

@@ -52,7 +52,7 @@ sidebar_position: 1
 Красивая версия `df` подробная информация по дискам
 [![duf](./duf.png)](./duf.png)
 
-### [ncdu](https://github.com/drewcrawford/ncdu)
+### [ncdu](https://dev.yorhel.nl/ncdu)
 
 Улучшенный `du` инструмент для анализа дискового пространства.
 [![ncdu](./ncdu.png)](./ncdu.png)
